@@ -15,6 +15,12 @@ This repository is dedicated to highlighting developments within the Quantum Inf
 
 
 ## Development of the NWChem-QDK interface
+<p align="center">
+  <img width="400" src=""> <br>
+<sub><sup>.</sup></sub>
+</p>
+  
+"Q# and NWChem: Tools for Scalable Quantum Chemistry on Quantum Computers," Guang Hao Low, Nicholas P. Bauman, Christopher E. Granade, Bo Peng, Nathan Wiebe, Eric J. Bylaska, Dave Wecker, Sriram Krishnamoorthy, Martin Roetteler, Karol Kowalski, Matthias Troyer, Nathan A. Baker, [*arXiv*:1904.01131](https://arxiv.org/abs/1904.01131)    
 
 **Challenge:** Enabling new quantum computing simulations in chemistry requires tight integration of computational chemistry infrastructure with novel quantum algorithms for ground- and excited-state simulations.
 
@@ -41,7 +47,7 @@ https://docs.microsoft.com/en-us/azure/quantum/ (Quantum Development Kit Documen
 
 **Approach and Results:** We have extended the sub-system embedding sub-algebras coupled cluster (SES-CC) theory to the downfolding procedure based on the double unitary CC (DUCC) formalism to address this challenge. In contrast to the standard single-reference SES-CC formulations, the DUCC approach results in a Hermitian form of the effective Hamiltonian in an active-space, which provides a rigorous separation of external cluster amplitudes that describe dynamical correlation effects from those corresponding to the internal (within the active space) excitations that define the components of eigenvectors associated with the energy of the entire system. 
 
-**Significance and Impact:** We have extended the sub-system embedding sub-algebras coupled cluster (SES-CC) theory to the downfolding procedure based on the double unitary CC (DUCC) formalism to address this challenge. In contrast to the standard single-reference SES-CC formulations, the DUCC approach results in a Hermitian form of the effective Hamiltonian (see Fig.2) in active-space, which provides a rigorous separation of external cluster amplitudes that describe dynamical correlation effects from those corresponding to the internal (within the active space) excitations that define the components of eigenvectors associated with the energy of the entire system.
+**Significance and Impact:** We have extended the sub-system embedding sub-algebras coupled cluster (SES-CC) theory to the downfolding procedure based on the double unitary CC (DUCC) formalism to address this challenge. In contrast to the standard single-reference SES-CC formulations, the DUCC approach results in a Hermitian form of the effective Hamiltonian in an active-space, which provides a rigorous separation of external cluster amplitudes that describe dynamical correlation effects from those corresponding to the internal (within the active space) excitations that define the components of eigenvectors associated with the energy of the entire system.
 
 https://nwchemgit.github.io/ (NWChem Documentation)  
 https://docs.microsoft.com/en-us/azure/quantum/ (Quantum Development Kit Documentation)
@@ -51,7 +57,7 @@ https://docs.microsoft.com/en-us/azure/quantum/ (Quantum Development Kit Documen
 ## Resource-efficient VQE algorithms with downfolded Hamiltonians
 **Challenge:** In modeling many-body problems, the biggest challenge confronted is that the number of qubits scales linearly with the molecular basis's size. This poses a significant limitation on the basis sets' size and the number of correlated electrons included in quantum simulations of chemical processes.
 
-**Approach and Results:** To address this issue and enable more realistic simulations on NISQ computers, we employed the double unitary coupled-cluster method to effectively downfold correlation effects into the reduced-size orbital space, commonly referred to as the active space. Using downfolding and VQE techniques (see Fig.5), we demonstrated that effective Hamiltonians could capture the effect of the whole orbital space in small-size active spaces, especially when natural orbitals are employed. 
+**Approach and Results:** To address this issue and enable more realistic simulations on NISQ computers, we employed the double unitary coupled-cluster method to effectively downfold correlation effects into the reduced-size orbital space, commonly referred to as the active space. Using downfolding and VQE techniques, we demonstrated that effective Hamiltonians could capture the effect of the whole orbital space in small-size active spaces, especially when natural orbitals are employed. 
 
 **Significance and Impact:** The DUCC/VQE framework was used to solve the ground-state energy of H2, Li2, and BeH2 on the cc-pVTZ basis using the reduced-size active spaces. The VQE formalism has also been extended to the generalized unitary CC (GUCC) ansatz and applied to benchmark systems/processes (N2, H2O, and C2H4) described by the downfolded Hamiltonians. The preliminary data indicate that simple downfolding procedures based on single commutator expansion and small active spaces can recover around 90% of correlation energy calculated when all orbitals are correlated.
 
@@ -62,7 +68,7 @@ https://docs.microsoft.com/en-us/azure/quantum/ (Quantum Development Kit Documen
 
 **Approach and Results:** The stochastic nature of the QPE algorithm can facilitate the discovery/identification of core-level states when the knowledge about the true configuration structure of a sought-after excited state is limited or postulated. For this purpose, we developed an algorithm where through repeated simulations, one can accumulate samples from the distribution of eigenstates energies. The desired error in each energy estimate is inversely proportional to the number of applications of the time evolution operator in the QPE algorithm. This is in contrast to VQE approaches, which only provide energy estimates for a single targeted state. 
 
-**Significance and Impact:** The PNNL-Microsoft team has demonstrated that extension of the QPE algorithm to high-energy core-level states of various spin, spatial symmetries, and complexity is possible. This is the first demonstration of quantum algorithms' potential for identifying shake-up/satellite states (see Fig. 6) and their future role in supporting various x-ray spectroscopies.
+**Significance and Impact:** The PNNL-Microsoft team has demonstrated that extension of the QPE algorithm to high-energy core-level states of various spin, spatial symmetries, and complexity is possible. This is the first demonstration of quantum algorithms' potential for identifying shake-up/satellite states and their future role in supporting various x-ray spectroscopies.
 
 
 
