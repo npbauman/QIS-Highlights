@@ -16,7 +16,7 @@ This repository is dedicated to highlighting developments within the Quantum Inf
 
 ## Development of the NWChem-QDK interface
 <p align="center">
-  <img width="400" src="https://github.com/npbauman/BES-QIS-at-PNNL/blob/a14900427b39cae1ccb64c3d2272b8d2782e5465/Figures/QuantumWorkflow.png"> <br>
+  <img width="500" src="https://github.com/npbauman/BES-QIS-at-PNNL/blob/a14900427b39cae1ccb64c3d2272b8d2782e5465/Figures/QuantumWorkflow.png"> <br>
 <sub><sup>Detailed workflow for simulating quantum chemistry on quantum computers.</sup></sub>
 </p>
   
