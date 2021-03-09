@@ -1,5 +1,9 @@
 This repository is dedicated to highlighting developments within the Quantum Information Science (QIS) Initiative at the Pacific Northwest National Laboratory (PNNL). It also provides some links, software, and data pertinent to the projects as well. 
 
+** Table of Contents **
+[Development of the NWChem-QDK interface](#Development of the NWChem-QDK interface)
+
+
 
 
 ## Development of the NWChem-QDK interface
