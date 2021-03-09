@@ -37,9 +37,10 @@ This repository is dedicated to highlighting developments within the Quantum Inf
 
 
 ## Resource-efficient VQE algorithms with downfolded Hamiltonians
-"Downfolding of many-body Hamiltonians using active-space models: Extension of the sub-system embedding sub-algebras approach to unitary coupled cluster formalisms" \\
-Nicholas P. Bauman, Eric J. Bylaska, Sriram Krishnamoorthy, Guang Hao Low, Nathan Wiebe, Christopher E. Granade, Martin Roetteler, Matthias Troyer, and Karol Kowalski \\
+"Downfolding of many-body Hamiltonians using active-space models: Extension of the sub-system embedding sub-algebras approach to unitary coupled cluster formalisms"__
+*Nicholas P. Bauman, Eric J. Bylaska, Sriram Krishnamoorthy, Guang Hao Low, Nathan Wiebe, Christopher E. Granade, Martin Roetteler, Matthias Troyer, and Karol Kowalski*__
 [J. Chem. Phys. **151**, 014107 (2019)](https://doi.org/10.1063/1.5094643)
+[arXiv.org:1902.01553](https://arxiv.org/abs/1902.01553)
 
 **Challenge:** In modeling many-body problems, the biggest challenge confronted is that the number of qubits scales linearly with the molecular basis's size. This poses a significant limitation on the basis sets' size and the number of correlated electrons included in quantum simulations of chemical processes.
 
