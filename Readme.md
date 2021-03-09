@@ -16,8 +16,8 @@ This repository is dedicated to highlighting developments within the Quantum Inf
 
 ## Development of the NWChem-QDK interface
 <p align="center">
-  <img width="400" src=""> <br>
-<sub><sup>.</sup></sub>
+  <img width="400" src="https://github.com/npbauman/BES-QIS-at-PNNL/blob/a14900427b39cae1ccb64c3d2272b8d2782e5465/Figures/QuantumWorkflow.png"> <br>
+<sub><sup>Detailed workflow for simulating quantum chemistry on quantum computers.</sup></sub>
 </p>
   
 "Q# and NWChem: Tools for Scalable Quantum Chemistry on Quantum Computers," Guang Hao Low, Nicholas P. Bauman, Christopher E. Granade, Bo Peng, Nathan Wiebe, Eric J. Bylaska, Dave Wecker, Sriram Krishnamoorthy, Martin Roetteler, Karol Kowalski, Matthias Troyer, Nathan A. Baker, [*arXiv*:1904.01131](https://arxiv.org/abs/1904.01131)    
