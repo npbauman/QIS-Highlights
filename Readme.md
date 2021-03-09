@@ -32,7 +32,8 @@ This repository is dedicated to highlighting developments within the Quantum Inf
   <img width="600" src="https://github.com/npbauman/BES-QIS-at-PNNL/blob/d71bfd80cfc7c194d80bb1fabb1315a6a853780d/Figures/DownfoldingAbstract.jpg"> <br>
 <sub><sup>A schematic representation of the coupled cluster (CC) downfolding technique, where the CC Ansatz is used to generate effective/downfolded Hamiltonians in small-dimensionality active spaces.</sup></sub>
 </p>
-"Downfolding of many-body Hamiltonians using active-space models: Extension of the sub-system embedding sub-algebras approach to unitary coupled cluster formalisms," Nicholas P. Bauman, Eric J. Bylaska, Sriram Krishnamoorthy, Guang Hao Low, Nathan Wiebe, Christopher E. Granade, Martin Roetteler, Matthias Troyer, and Karol Kowalski, [*J. Chem. Phys.* **151**, 014107 (2019)](https://doi.org/10.1063/1.5094643); [*arXiv*:1902.01553](https://arxiv.org/abs/1902.01553)  
+  
+"Downfolding of many-body Hamiltonians using active-space models: Extension of the sub-system embedding sub-algebras approach to unitary coupled cluster formalisms," Nicholas P. Bauman, Eric J. Bylaska, Sriram Krishnamoorthy, Guang Hao Low, Nathan Wiebe, Christopher E. Granade, Martin Roetteler, Matthias Troyer, and Karol Kowalski, [*J. Chem. Phys.* **151**, 014107 (2019)](https://doi.org/10.1063/1.5094643); [*arXiv*:1902.01553](https://arxiv.org/abs/1902.01553)    
 
 **Challenge:** Limited quantum resources preclude simulations of complex and realistic chemical processes. Therefore, quantum computing is in high demand for efficient techniques for re-representing quantum many-body problems in reduced dimensionality spaces before reaching maturity.
 
