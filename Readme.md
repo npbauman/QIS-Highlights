@@ -28,7 +28,10 @@ This repository is dedicated to highlighting developments within the Quantum Inf
 - https://docs.microsoft.com/en-us/azure/quantum/ (Quantum Development Kit Documentation)
 
 ## Downfolding techniques for dimension reduction of correlated electronic Hamiltonians
-![Figure ](https://github.com/npbauman/BES-QIS-at-PNNL/blob/d71bfd80cfc7c194d80bb1fabb1315a6a853780d/Figures/DownfoldingAbstract.jpg)
+<p align="center">
+  <img width="460" height="300" src="https://github.com/npbauman/BES-QIS-at-PNNL/blob/d71bfd80cfc7c194d80bb1fabb1315a6a853780d/Figures/DownfoldingAbstract.jpg">
+</p>  
+![Figure ](https://github.com/npbauman/BES-QIS-at-PNNL/blob/d71bfd80cfc7c194d80bb1fabb1315a6a853780d/Figures/DownfoldingAbstract.jpg)  
 "Downfolding of many-body Hamiltonians using active-space models: Extension of the sub-system embedding sub-algebras approach to unitary coupled cluster formalisms"  
 Nicholas P. Bauman, Eric J. Bylaska, Sriram Krishnamoorthy, Guang Hao Low, Nathan Wiebe, Christopher E. Granade, Martin Roetteler, Matthias Troyer, and Karol Kowalski  
 [*J. Chem. Phys.* **151**, 014107 (2019)](https://doi.org/10.1063/1.5094643)  
