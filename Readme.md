@@ -21,7 +21,7 @@ This repository is dedicated to highlighting developments within the Quantum Inf
 
 **Significance and Impact:** Using the NWChem-QDK interface, we demonstrated the efficiency of the QPE approach in describing strongly correlated ground and excited states of molecular systems. The QPE algorithm, with proper initial estimates of the electronic wave functions, was able to describe potential energy surfaces for the ground state and several low-lying excited states, which also involved challenging doubly excited states. Using the H10 benchmark system in the STO-3G basis set, we demonstrated the advantages of using QPE in achieving highly accurate energy estimates in the strongly correlated regime.
 
-- https://nwchemgit.github.io/ (NWChem Github and Wiki)
+- https://nwchemgit.github.io/ (NWChem Documentation)
 - https://arrows.emsl.pnnl.gov/api/qsharp_chem (EMSL Arrows Quantum Editor)
 - https://nwchemgit.github.io/EMSL_Arrows.html (EMSL Arrows Documentation)
 - https://docs.microsoft.com/en-us/azure/quantum/ (Quantum Development Kit Documentation)
