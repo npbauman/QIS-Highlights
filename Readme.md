@@ -28,6 +28,12 @@ This repository is dedicated to highlighting developments within the Quantum Inf
 - https://docs.microsoft.com/en-us/azure/quantum/ (Quantum Development Kit Documentation)
 
 ## Downfolding techniques for dimension reduction of correlated electronic Hamiltonians
+[](Figures/DownfoldingAbstract.jpg)
+"Downfolding of many-body Hamiltonians using active-space models: Extension of the sub-system embedding sub-algebras approach to unitary coupled cluster formalisms"  
+Nicholas P. Bauman, Eric J. Bylaska, Sriram Krishnamoorthy, Guang Hao Low, Nathan Wiebe, Christopher E. Granade, Martin Roetteler, Matthias Troyer, and Karol Kowalski  
+[*J. Chem. Phys.* **151**, 014107 (2019)](https://doi.org/10.1063/1.5094643)  
+[*arXiv*:1902.01553](https://arxiv.org/abs/1902.01553)
+
 **Challenge:** Limited quantum resources preclude simulations of complex and realistic chemical processes. Therefore, quantum computing is in high demand for efficient techniques for re-representing quantum many-body problems in reduced dimensionality spaces before reaching maturity.
 
 **Approach and Results:** We have extended the sub-system embedding sub-algebras coupled cluster (SES-CC) theory to the downfolding procedure based on the double unitary CC (DUCC) formalism to address this challenge. In contrast to the standard single-reference SES-CC formulations, the DUCC approach results in a Hermitian form of the effective Hamiltonian (see Fig.4) in active-space, which provides a rigorous separation of external cluster amplitudes that describe dynamical correlation effects from those corresponding to the internal (within the active space) excitations that define the components of eigenvectors associated with the energy of the entire system. 
@@ -37,11 +43,6 @@ This repository is dedicated to highlighting developments within the Quantum Inf
 
 
 ## Resource-efficient VQE algorithms with downfolded Hamiltonians
-"Downfolding of many-body Hamiltonians using active-space models: Extension of the sub-system embedding sub-algebras approach to unitary coupled cluster formalisms"  
-Nicholas P. Bauman, Eric J. Bylaska, Sriram Krishnamoorthy, Guang Hao Low, Nathan Wiebe, Christopher E. Granade, Martin Roetteler, Matthias Troyer, and Karol Kowalski  
-[*J. Chem. Phys.* **151**, 014107 (2019)](https://doi.org/10.1063/1.5094643)  
-[*arXiv*:1902.01553](https://arxiv.org/abs/1902.01553)
-
 **Challenge:** In modeling many-body problems, the biggest challenge confronted is that the number of qubits scales linearly with the molecular basis's size. This poses a significant limitation on the basis sets' size and the number of correlated electrons included in quantum simulations of chemical processes.
 
 **Approach and Results:** To address this issue and enable more realistic simulations on NISQ computers, we employed the double unitary coupled-cluster method to effectively downfold correlation effects into the reduced-size orbital space, commonly referred to as the active space. Using downfolding and VQE techniques (see Fig.5), we demonstrated that effective Hamiltonians could capture the effect of the whole orbital space in small-size active spaces, especially when natural orbitals are employed. 
