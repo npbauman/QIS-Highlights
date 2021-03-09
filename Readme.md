@@ -2,7 +2,7 @@ This repository is dedicated to highlighting developments within the Quantum Inf
 
 **Table of Contents**
 - [Development of the NWChem-QDK interface](#Development-of-the-NWChem-QDK-interface)
-- [Downfolding techniques for dimension reduction of correlated electronic Hamiltonians](#Downfolding techniques for dimension reduction of correlated electronic Hamiltonians)
+- [Downfolding techniques for dimension reduction of correlated electronic Hamiltonians](#Downfolding-techniques-for-dimension-reduction-of-correlated-electronic-Hamiltonians)
 - [Development of the NWChem-QDK interface](#Development-of-the-NWChem-QDK-interface)
 - [Development of the NWChem-QDK interface](#Development-of-the-NWChem-QDK-interface)
 - [Development of the NWChem-QDK interface](#Development-of-the-NWChem-QDK-interface)
