@@ -41,6 +41,9 @@ This repository is dedicated to highlighting developments within the Quantum Inf
 
 **Significance and Impact:** We have extended the sub-system embedding sub-algebras coupled cluster (SES-CC) theory to the downfolding procedure based on the double unitary CC (DUCC) formalism to address this challenge. In contrast to the standard single-reference SES-CC formulations, the DUCC approach results in a Hermitian form of the effective Hamiltonian (see Fig.2) in active-space, which provides a rigorous separation of external cluster amplitudes that describe dynamical correlation effects from those corresponding to the internal (within the active space) excitations that define the components of eigenvectors associated with the energy of the entire system.
 
+- https://nwchemgit.github.io/ (NWChem Documentation)
+- https://docs.microsoft.com/en-us/azure/quantum/ (Quantum Development Kit Documentation)
+
 
 
 ## Resource-efficient VQE algorithms with downfolded Hamiltonians
