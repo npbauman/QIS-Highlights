@@ -29,9 +29,10 @@ This repository is dedicated to highlighting developments within the Quantum Inf
 
 ## Downfolding techniques for dimension reduction of correlated electronic Hamiltonians
 <p align="center">
-  <img src="https://github.com/npbauman/BES-QIS-at-PNNL/blob/d71bfd80cfc7c194d80bb1fabb1315a6a853780d/Figures/DownfoldingAbstract.jpg">
+  <img width="200" src="https://github.com/npbauman/BES-QIS-at-PNNL/blob/d71bfd80cfc7c194d80bb1fabb1315a6a853780d/Figures/DownfoldingAbstract.jpg">
 </p>
 A schematic representation of the coupled cluster (CC) downfolding technique, where the CC Ansatz is used to generate effective/downfolded Hamiltonians in small-dimensionality active spaces.  
+
 
 "Downfolding of many-body Hamiltonians using active-space models: Extension of the sub-system embedding sub-algebras approach to unitary coupled cluster formalisms"  
 Nicholas P. Bauman, Eric J. Bylaska, Sriram Krishnamoorthy, Guang Hao Low, Nathan Wiebe, Christopher E. Granade, Martin Roetteler, Matthias Troyer, and Karol Kowalski  
