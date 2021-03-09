@@ -20,7 +20,7 @@ This repository is dedicated to highlighting developments within the Quantum Inf
 <sub><sup>Detailed workflow for simulating quantum chemistry on quantum computers.</sup></sub>
 </p>
   
-"Q# and NWChem: Tools for Scalable Quantum Chemistry on Quantum Computers," Guang Hao Low, Nicholas P. Bauman, Christopher E. Granade, Bo Peng, Nathan Wiebe, Eric J. Bylaska, Dave Wecker, Sriram Krishnamoorthy, Martin Roetteler, Karol Kowalski, Matthias Troyer, Nathan A. Baker, [*arXiv*:1904.01131](https://arxiv.org/abs/1904.01131)    
+"Q# and NWChem: Tools for Scalable Quantum Chemistry on Quantum Computers," Guang Hao Low, Nicholas P. Bauman, Christopher E. Granade, Bo Peng, Nathan Wiebe, Eric J. Bylaska, Dave Wecker, Sriram Krishnamoorthy, Martin Roetteler, Karol Kowalski, Matthias Troyer, and Nathan A. Baker, [*arXiv*:1904.01131](https://arxiv.org/abs/1904.01131)    
 
 **Challenge:** Enabling new quantum computing simulations in chemistry requires tight integration of computational chemistry infrastructure with novel quantum algorithms for ground- and excited-state simulations.
 
@@ -54,7 +54,21 @@ https://docs.microsoft.com/en-us/azure/quantum/ (Quantum Development Kit Documen
 
 
 
+## TODO:  Quantum simulations of excited state with active-space downfolded Hamiltonians
+"Quantum simulations of excited state with active-space downfolded Hamiltonians," Nicholas P. Bauman, Guang Hao Low, and Karol Kowalski, [*J. Chem. Phys.* **151**, 234114 (2019)](https://doi.org/10.1063/1.5128103); [*arXiv*:1909.06404](https://arxiv.org/abs/1909.06404) 
+
+**Challenge:**
+
+**Approach and Results:**
+
+**Significance and Impact:**
+
+
+
 ## Resource-efficient VQE algorithms with downfolded Hamiltonians
+
+"Resource-Efficient Chemistry on Quantum Computers with the Variational Quantum Eigensolver and the Double Unitary Coupled-Cluster Approach," Mekena Metcalf, Nicholas P. Bauman, Karol Kowalski, and Wibe A. de Jong, [*J. Chem. Theory Comput.* **16**, 6165 (2020)](https://doi.org/10.1021/acs.jctc.0c00421); [*arXiv*:2004.07721](https://arxiv.org/abs/2004.07721)  
+
 **Challenge:** In modeling many-body problems, the biggest challenge confronted is that the number of qubits scales linearly with the molecular basis's size. This poses a significant limitation on the basis sets' size and the number of correlated electrons included in quantum simulations of chemical processes.
 
 **Approach and Results:** To address this issue and enable more realistic simulations on NISQ computers, we employed the double unitary coupled-cluster method to effectively downfold correlation effects into the reduced-size orbital space, commonly referred to as the active space. Using downfolding and VQE techniques, we demonstrated that effective Hamiltonians could capture the effect of the whole orbital space in small-size active spaces, especially when natural orbitals are employed. 
@@ -63,12 +77,176 @@ https://docs.microsoft.com/en-us/azure/quantum/ (Quantum Development Kit Documen
 
 
 
+
+## TODO: Coupled Cluster Green’s function formulations based on the effective Hamiltonians
+
+"Coupled Cluster Green's function formulations based on the effective Hamiltonians," Nicholas P. Bauman,Bo Peng, and  Karol Kowalski, [*Mol. Phys.* **118** (2020)](https://doi.org/10.1080/00268976.2020.1725669); [*arXiv*:1910.00394](https://arxiv.org/abs/1910.00394) 
+  
+**Challenge:**
+
+**Approach and Results:**
+
+**Significance and Impact:**
+
+
+
+
+## TODO: 
+
+"," , [*TEXT* **TEXT**,  ()](); [*arXiv*:]() 
+  
+**Challenge:**
+
+**Approach and Results:**
+
+**Significance and Impact:**
+
+
+
+
+## TODO: 
+
+"," , [*TEXT* **TEXT**,  ()](); [*arXiv*:]() 
+  
+**Challenge:**
+
+**Approach and Results:**
+
+**Significance and Impact:**
+
+
+
+
+## TODO: 
+
+"," , [*TEXT* **TEXT**,  ()](); [*arXiv*:]() 
+  
+**Challenge:**
+
+**Approach and Results:**
+
+**Significance and Impact:**
+
+
+
+
+## TODO: 
+
+"," , [*TEXT* **TEXT**,  ()](); [*arXiv*:]() 
+  
+**Challenge:**
+
+**Approach and Results:**
+
+**Significance and Impact:**
+
+
+
+
 ## Quantum computing for high-energy states - QPE simulations of core-level states
+
+"," , [*TEXT* **TEXT**,  ()]
+
 **Challenge:** The experimental effort at the BES-supported light source facilities is contingent on the availability of predictive modeling tools to interpret x-ray experimental spectra. However, the theoretical description and numerical identification of complicated core-level states still pose a significant challenge for approximate methods.
 
 **Approach and Results:** The stochastic nature of the QPE algorithm can facilitate the discovery/identification of core-level states when the knowledge about the true configuration structure of a sought-after excited state is limited or postulated. For this purpose, we developed an algorithm where through repeated simulations, one can accumulate samples from the distribution of eigenstates energies. The desired error in each energy estimate is inversely proportional to the number of applications of the time evolution operator in the QPE algorithm. This is in contrast to VQE approaches, which only provide energy estimates for a single targeted state. 
 
 **Significance and Impact:** The PNNL-Microsoft team has demonstrated that extension of the QPE algorithm to high-energy core-level states of various spin, spatial symmetries, and complexity is possible. This is the first demonstration of quantum algorithms' potential for identifying shake-up/satellite states and their future role in supporting various x-ray spectroscopies.
+
+
+
+
+
+## TODO: 
+
+"," , [*TEXT* **TEXT**,  ()](); [*arXiv*:]() 
+  
+**Challenge:**
+
+**Approach and Results:**
+
+**Significance and Impact:**
+
+
+
+
+
+## TODO: 
+
+"," , [*TEXT* **TEXT**,  ()](); [*arXiv*:]() 
+  
+**Challenge:**
+
+**Approach and Results:**
+
+**Significance and Impact:**
+
+
+
+
+## TODO: 
+
+"," , [*TEXT* **TEXT**,  ()](); [*arXiv*:]() 
+  
+**Challenge:**
+
+**Approach and Results:**
+
+**Significance and Impact:**
+
+
+
+
+## TODO: 
+
+"," , [*TEXT* **TEXT**,  ()](); [*arXiv*:]() 
+  
+**Challenge:**
+
+**Approach and Results:**
+
+**Significance and Impact:**
+
+
+
+
+## TODO: 
+
+"," , [*TEXT* **TEXT**,  ()](); [*arXiv*:]() 
+  
+**Challenge:**
+
+**Approach and Results:**
+
+**Significance and Impact:**
+
+
+
+
+## TODO: 
+
+"," , [*TEXT* **TEXT**,  ()](); [*arXiv*:]() 
+  
+**Challenge:**
+
+**Approach and Results:**
+
+**Significance and Impact:**
+
+
+
+
+## TODO: 
+
+"," , [*TEXT* **TEXT**,  ()](); [*arXiv*:]() 
+  
+**Challenge:**
+
+**Approach and Results:**
+
+**Significance and Impact:**
+
+
 
 
 
