@@ -2,6 +2,14 @@ This repository is dedicated to highlighting developments within the Quantum Inf
 
 **Table of Contents**
 - [Development of the NWChem-QDK interface](#Development-of-the-NWChem-QDK-interface)
+- [Downfolding techniques for dimension reduction of correlated electronic Hamiltonians](#Downfolding techniques for dimension reduction of correlated electronic Hamiltonians)
+- [Development of the NWChem-QDK interface](#Development-of-the-NWChem-QDK-interface)
+- [Development of the NWChem-QDK interface](#Development-of-the-NWChem-QDK-interface)
+- [Development of the NWChem-QDK interface](#Development-of-the-NWChem-QDK-interface)
+- [Development of the NWChem-QDK interface](#Development-of-the-NWChem-QDK-interface)
+- [Development of the NWChem-QDK interface](#Development-of-the-NWChem-QDK-interface)
+- [Development of the NWChem-QDK interface](#Development-of-the-NWChem-QDK-interface)
+
 
 
 
@@ -14,7 +22,7 @@ This repository is dedicated to highlighting developments within the Quantum Inf
 **Significance and Impact:** Using the NWChem-QDK interface, we demonstrated the efficiency of the QPE approach in describing strongly correlated ground and excited states of molecular systems. The QPE algorithm, with proper initial estimates of the electronic wave functions, was able to describe potential energy surfaces for the ground state and several low-lying excited states, which also involved challenging doubly excited states. Using the H10 benchmark system in the STO-3G basis set, we demonstrated the advantages of using QPE in achieving highly accurate energy estimates in the strongly correlated regime.
 
 
-## Downfolding techniques for dimension reduction of correlated electronic Hamiltonians.
+## Downfolding techniques for dimension reduction of correlated electronic Hamiltonians
 
 **Challenge:** Limited quantum resources preclude simulations of complex and realistic chemical processes. Therefore, quantum computing is in high demand for efficient techniques for re-representing quantum many-body problems in reduced dimensionality spaces before reaching maturity.
 
