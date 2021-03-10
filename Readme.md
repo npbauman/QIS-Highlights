@@ -6,7 +6,7 @@ This repository is dedicated to highlighting developments within the Quantum Inf
 - [TODO: Quantum simulations of excited state with active-space downfolded Hamiltonians](#Quantum-simulations-of-excited-state-with-active-space-downfolded-Hamiltonians)
 - [Resource-efficient VQE algorithms with downfolded Hamiltonians](#Resource-efficient-VQE-algorithms-with-downfolded-Hamiltonians)
 - [TODO: Coupled Cluster Green’s function formulations based on the effective Hamiltonians](Coupled-Cluster-Green’s-function-formulations-based-on-the-effective-Hamiltonians)
-- [TODO: A Filon-like integration strategy for calculating exact exchange in periodic boundary conditions: a plane-wave DFT implementation](A-Filon-like-integration-strategy-for-calculating-exact-exchange-in-periodic-boundary-conditions:-a-plane-wave-DFT-implementation)
+- [TODO: A Filon-like integration strategy for calculating exact exchange in periodic boundary conditions](A-Filon-like-integration-strategy-for-calculating-exact exchange-in-periodic-boundary-conditions)
 - [TODO: Sub-system quantum dynamics using coupled cluster downfolding techniques](Sub-system-quantum-dynamics-using-coupled-cluster-downfolding-techniques)
 - [TODO: Exploiting chemistry and molecular systems for quantum information science](Exploiting-chemistry-and-molecular-systems-for-quantum-information-science)
 - [Quantum computing for high-energy states - QPE simulations of core-level states](#Quantum-computing-for-high-energy-states---QPE-simulations-of-core-level-states)
@@ -104,7 +104,7 @@ https://docs.microsoft.com/en-us/azure/quantum/ (Quantum Development Kit Documen
 
 
 
-## TODO: A Filon-like integration strategy for calculating exact exchange in periodic boundary conditions: a plane-wave DFT implementation
+## TODO: A Filon-like integration strategy for calculating exact exchange in periodic boundary conditions
 
 "A Filon-like integration strategy for calculating exact exchange in periodic boundary conditions: a plane-wave DFT implementation," Eric J. Bylaska, Kevin Waters, Eric D/ Hermes, Judit Zádor, and Kevin M Rosso , [*Mater. Theory* **4**, 3 (2020)](https://doi.org/10.1186/s41313-020-00019-9)
   
