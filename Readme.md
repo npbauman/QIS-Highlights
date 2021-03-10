@@ -6,7 +6,7 @@ This repository is dedicated to highlighting developments within the Quantum Inf
 - [Quantum simulations of excited state with active-space downfolded Hamiltonians](#Quantum-simulations-of-excited-state-with-active-space-downfolded-Hamiltonians)
 - [Resource-efficient VQE algorithms with downfolded Hamiltonians](#Resource-efficient-VQE-algorithms-with-downfolded-Hamiltonians)
 - [Coupled Cluster Green’s function formulations based on the effective Hamiltonians](#coupled-cluster-greens-function-formulations-based-on-the-effective-hamiltonians)
-- [A Filon-like integration strategy for calculating exact exchange in periodic boundary conditions](#A-Filon-like-integration-strategy-for-calculating-exact exchange-in-periodic-boundary-conditions)
+- [A Filon-like integration strategy for calculating exact exchange in periodic boundary conditions](#a-filon-like-integration-strategy-for-calculating-exact-exchange-in-periodic-boundary-conditions)
 - [Sub-system quantum dynamics using coupled cluster downfolding techniques](#Sub-system-quantum-dynamics-using-coupled-cluster-downfolding-techniques)
 - [Exploiting chemistry and molecular systems for quantum information science](#Exploiting-chemistry-and-molecular-systems-for-quantum-information-science)
 - [Quantum computing for high-energy states - QPE simulations of core-level states](#Quantum-computing-for-high-energy-states---QPE-simulations-of-core-level-states)
