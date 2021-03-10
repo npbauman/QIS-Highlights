@@ -3,24 +3,24 @@ This repository is dedicated to highlighting developments within the Quantum Inf
 **Table of Contents**
 - [Development of the NWChem-QDK interface](#Development-of-the-NWChem-QDK-interface)
 - [Downfolding techniques for dimension reduction of correlated electronic Hamiltonians](#Downfolding-techniques-for-dimension-reduction-of-correlated-electronic-Hamiltonians)
-- [TODO: Quantum simulations of excited state with active-space downfolded Hamiltonians](#Quantum-simulations-of-excited-state-with-active-space-downfolded-Hamiltonians)
+- [Quantum simulations of excited state with active-space downfolded Hamiltonians](#Quantum-simulations-of-excited-state-with-active-space-downfolded-Hamiltonians)
 - [Resource-efficient VQE algorithms with downfolded Hamiltonians](#Resource-efficient-VQE-algorithms-with-downfolded-Hamiltonians)
-- [TODO: Coupled Cluster Green’s function formulations based on the effective Hamiltonians](Coupled-Cluster-Green’s-function-formulations-based-on-the-effective-Hamiltonians)
-- [TODO: A Filon-like integration strategy for calculating exact exchange in periodic boundary conditions](A-Filon-like-integration-strategy-for-calculating-exact exchange-in-periodic-boundary-conditions)
-- [TODO: Sub-system quantum dynamics using coupled cluster downfolding techniques](Sub-system-quantum-dynamics-using-coupled-cluster-downfolding-techniques)
-- [TODO: Exploiting chemistry and molecular systems for quantum information science](Exploiting-chemistry-and-molecular-systems-for-quantum-information-science)
+- [Coupled Cluster Green’s function formulations based on the effective Hamiltonians](Coupled-Cluster-Green’s-function-formulations-based-on-the-effective-Hamiltonians)
+- [A Filon-like integration strategy for calculating exact exchange in periodic boundary conditions](A-Filon-like-integration-strategy-for-calculating-exact exchange-in-periodic-boundary-conditions)
+- [Sub-system quantum dynamics using coupled cluster downfolding techniques](Sub-system-quantum-dynamics-using-coupled-cluster-downfolding-techniques)
+- [Exploiting chemistry and molecular systems for quantum information science](Exploiting-chemistry-and-molecular-systems-for-quantum-information-science)
 - [Quantum computing for high-energy states - QPE simulations of core-level states](#Quantum-computing-for-high-energy-states---QPE-simulations-of-core-level-states)
-- [TODO: Quantum Algorithms for Simulating the Lattice Schwinger Model](Quantum-Algorithms-for-Simulating-the-Lattice-Schwinger-Model)
+- [Quantum Algorithms for Simulating the Lattice Schwinger Model](Quantum-Algorithms-for-Simulating-the-Lattice-Schwinger-Model)
 - [Quantum algorithms for connected moments expansion](#Quantum-algorithms-for-connected-moments-expansion)
-- [TODO: Variational Quantum Eigensolver for Approximate Diagonalization of Downfolded Hamiltonians using Generalized Unitary Coupled Cluster Ansatz](Variational-Quantum-Eigensolver-for-Approximate-Diagonalization-of-Downfolded-Hamiltonians-using-Generalized-Unitary-Coupled-Cluster-Ansatz)
+- [Variational Quantum Eigensolver for Approximate Diagonalization of Downfolded Hamiltonians using Generalized Unitary Coupled Cluster Ansatz](Variational-Quantum-Eigensolver-for-Approximate-Diagonalization-of-Downfolded-Hamiltonians-using-Generalized-Unitary-Coupled-Cluster-Ansatz)
 - [Reduced-size plane-wave based representation of many-body methods for quantum computing](#Reduced-size-plane-wave-based-representation-of-many-body-methods-for-quantum-computing)
 - [Benchmarking adaptive variational quantum eigensolvers](#Benchmarking-adaptive-variational-quantum-eigensolvers)
-- [TODO: Even more efficient quantum computations of chemistry through tensor hypercontractions](Even-more-efficient-quantum-computations-of-chemistry-through-tensor-hypercontractions)
-- [TODO: Dynamical Self-energy Mapping (DSEM) for quantum computing](Dynamical-Self-energy-Mapping-(DSEM)-for-quantum-computing)
---[TODO: Simulating Quantum Materials with Digital Quantum Computers](Simulating-Quantum-Materials-with-Digital-Quantum-Computers)
-- [TODO: Variational quantum solver employing the PDS energy functional](Variational-quantum-solver-employing-the-PDS-energy-functional)
-- [TODO: Dimensionality reduction of many-body problem using coupled-cluster sub-system flow equations: classical and quantum computing perspective](Dimensionality-reduction-of-many-body-problem-using-coupled-cluster-sub-system-flow-equations:-classical-and-quantum-computing-perspective)
-- [TODO: Effect of state preparation on the quantum connected moments expansion](Effect-of-state-preparation-on-the-quantum-connected-moments-expansion)
+- [Even more efficient quantum computations of chemistry through tensor hypercontractions](Even-more-efficient-quantum-computations-of-chemistry-through-tensor-hypercontractions)
+- [Dynamical Self-energy Mapping (DSEM) for quantum computing](Dynamical-Self-energy-Mapping-(DSEM)-for-quantum-computing)
+--[Simulating Quantum Materials with Digital Quantum Computers](Simulating-Quantum-Materials-with-Digital-Quantum-Computers)
+- [Variational quantum solver employing the PDS energy functional](Variational-quantum-solver-employing-the-PDS-energy-functional)
+- [Dimensionality reduction of many-body problem using coupled-cluster sub-system flow equations: classical and quantum computing perspective](Dimensionality-reduction-of-many-body-problem-using-coupled-cluster-sub-system-flow-equations:-classical-and-quantum-computing-perspective)
+- [Effect of state preparation on the quantum connected moments expansion](Effect-of-state-preparation-on-the-quantum-connected-moments-expansion)
 
 
 
@@ -67,7 +67,7 @@ https://docs.microsoft.com/en-us/azure/quantum/ (Quantum Development Kit Documen
 
 
 
-## TODO:  Quantum simulations of excited state with active-space downfolded Hamiltonians
+##  Quantum simulations of excited state with active-space downfolded Hamiltonians
 "Quantum simulations of excited state with active-space downfolded Hamiltonians," Nicholas P. Bauman, Guang Hao Low, and Karol Kowalski, [*J. Chem. Phys.* **151**, 234114 (2019)](https://doi.org/10.1063/1.5128103); [*arXiv*:1909.06404](https://arxiv.org/abs/1909.06404) 
 
 **Challenge:**
@@ -91,7 +91,7 @@ https://docs.microsoft.com/en-us/azure/quantum/ (Quantum Development Kit Documen
 
 
 
-## TODO: Coupled Cluster Green’s function formulations based on the effective Hamiltonians
+## Coupled Cluster Green’s function formulations based on the effective Hamiltonians
 
 "Coupled Cluster Green's function formulations based on the effective Hamiltonians," Nicholas P. Bauman,Bo Peng, and  Karol Kowalski, [*Mol. Phys.* **118** (2020)](https://doi.org/10.1080/00268976.2020.1725669); [*arXiv*:1910.00394](https://arxiv.org/abs/1910.00394) 
   
@@ -104,7 +104,7 @@ https://docs.microsoft.com/en-us/azure/quantum/ (Quantum Development Kit Documen
 
 
 
-## TODO: A Filon-like integration strategy for calculating exact exchange in periodic boundary conditions
+## A Filon-like integration strategy for calculating exact exchange in periodic boundary conditions
 
 "A Filon-like integration strategy for calculating exact exchange in periodic boundary conditions: a plane-wave DFT implementation," Eric J. Bylaska, Kevin Waters, Eric D/ Hermes, Judit Zádor, and Kevin M Rosso , [*Mater. Theory* **4**, 3 (2020)](https://doi.org/10.1186/s41313-020-00019-9)
   
@@ -117,7 +117,7 @@ https://docs.microsoft.com/en-us/azure/quantum/ (Quantum Development Kit Documen
 
 
 
-## TODO: Sub-system quantum dynamics using coupled cluster downfolding techniques
+## Sub-system quantum dynamics using coupled cluster downfolding techniques
 
 "Sub-system quantum dynamics using coupled cluster downfolding techniques," Karol Kowalski and Nicholas P. Bauman, [*J. Chem. Phys.* **152**, 244127 (2020)]( https://doi.org/10.1063/5.0008436); [*arXiv*:2003.09566](https://arxiv.org/abs/2003.09566) 
   
@@ -130,7 +130,7 @@ https://docs.microsoft.com/en-us/azure/quantum/ (Quantum Development Kit Documen
 
 
 
-## TODO: Exploiting chemistry and molecular systems for quantum information science
+## Exploiting chemistry and molecular systems for quantum information science
 
 "Exploiting chemistry and molecular systems for quantum information science," Michael R. Wasielewski, Malcolm D. E. Forbes, Natia L. Frank, Karol Kowalski, Gregory D. Scholes, Joel Yuen-Zhou, Marc A. Baldo, Danna E. Freedman, Randall H. Goldsmith, Theodore Goodson III, Martin L. Kirk, James K. McCusker, Jennifer P. Ogilvie, David A. Shultz, Stefan Stoll, and K. Birgitta Whaley , [*Nat. Rev. Chem.* **2**, 490 (2020)](https://doi.org/10.1038/s41570-020-0200-5)
   
@@ -158,7 +158,7 @@ https://docs.microsoft.com/en-us/azure/quantum/ (Quantum Development Kit Documen
 
 
 
-## TODO: Quantum Algorithms for Simulating the Lattice Schwinger Model
+## Quantum Algorithms for Simulating the Lattice Schwinger Model
 
 "Quantum Algorithms for Simulating the Lattice Schwinger Model," Alexander F. Shaw, Pavel Lougovski, Jesse R. Stryker, and Nathan Wiebe, [*Quantum* **4**, 306 (2020)](	https://doi.org/10.22331/q-2020-08-10-306); [*arXiv*:2002.11146](https://arxiv.org/abs/2002.11146) 
   
@@ -183,7 +183,7 @@ https://docs.microsoft.com/en-us/azure/quantum/ (Quantum Development Kit Documen
 
 
 
-## TODO: Variational Quantum Eigensolver for Approximate Diagonalization of Downfolded Hamiltonians using Generalized Unitary Coupled Cluster Ansatz
+## Variational Quantum Eigensolver for Approximate Diagonalization of Downfolded Hamiltonians using Generalized Unitary Coupled Cluster Ansatz
 
 "Variational Quantum Eigensolver for Approximate Diagonalization of Downfolded Hamiltonians using Generalized Unitary Coupled Cluster Ansatz," Nicholas P. Bauman, Jaroslav Chládek, Libor Veis, Jiří Pittner, Karol Kowalski,[*arXiv*:2011.01985](https://arxiv.org/abs/2011.01985) 
   
@@ -223,7 +223,7 @@ https://docs.microsoft.com/en-us/azure/quantum/ (Quantum Development Kit Documen
 
 
 
-## TODO: Even more efficient quantum computations of chemistry through tensor hypercontractions
+## Even more efficient quantum computations of chemistry through tensor hypercontractions
 
 "Even more efficient quantum computations of chemistry through tensor hypercontractions," Joonho Lee, Dominic W. Berry, Craig Gidney, William J. Huggins, Jarrod R. McClean, Nathan Wiebe and Ryan Babbush, [*arXiv*:2011.03494](https://arxiv.org/abs/2011.03494) 
   
@@ -236,7 +236,7 @@ https://docs.microsoft.com/en-us/azure/quantum/ (Quantum Development Kit Documen
 
 
 
-## TODO: Dynamical Self-energy Mapping (DSEM) for quantum computing
+## Dynamical Self-energy Mapping (DSEM) for quantum computing
 
 "Dynamical Self-energy Mapping (DSEM) for quantum computing," Diksha Dhawan, Mekena Metcalf, Dominika Zgid, [*arXiv*:2010.05441](https://arxiv.org/abs/2010.05441) 
   
@@ -249,7 +249,7 @@ https://docs.microsoft.com/en-us/azure/quantum/ (Quantum Development Kit Documen
 
 
 
-## TODO: Simulating Quantum Materials with Digital Quantum Computers
+## Simulating Quantum Materials with Digital Quantum Computers
 
 "Simulating Quantum Materials with Digital Quantum Computers," Lindsay Bassman, Miroslav Urbanek, Mekena Metcalf, Jonathan Carter, Alexander F. Kemper, Wibe de Jong, [*arXiv*:2101.08836](https://arxiv.org/abs/2101.08836) 
   
@@ -262,7 +262,7 @@ https://docs.microsoft.com/en-us/azure/quantum/ (Quantum Development Kit Documen
 
 
 
-## TODO: Variational quantum solver employing the PDS energy functional
+## Variational quantum solver employing the PDS energy functional
 
 "Variational quantum solver employing the PDS energy functional," Bo Peng and Karol Kowalski, [*arXiv*:2101.08526](https://arxiv.org/abs/2101.08526) 
   
@@ -275,7 +275,7 @@ https://docs.microsoft.com/en-us/azure/quantum/ (Quantum Development Kit Documen
 
 
 
-## TODO: Dimensionality reduction of many-body problem using coupled-cluster sub-system flow equations: classical and quantum computing perspective
+## Dimensionality reduction of many-body problem using coupled-cluster sub-system flow equations: classical and quantum computing perspective
 
 "Dimensionality reduction of many-body problem using coupled-cluster sub-system flow equations: classical and quantum computing perspective," Karol Kowalski, [*arXiv*:2102.05783](https://arxiv.org/abs/2102.05783) 
   
@@ -290,7 +290,7 @@ https://docs.microsoft.com/en-us/azure/quantum/ (Quantum Development Kit Documen
 
 
 
-## TODO: Effect of state preparation on the quantum connected moments expansion
+## Effect of state preparation on the quantum connected moments expansion
 
 "Effect of state preparation on the quantum connected moments expansion," Daniel Claudino, Bo Peng, Nicholas P. Bauman, Karol Kowalski and Travis S. Humble, [*Quantum Sci. Technol.* (submitted)]
   
