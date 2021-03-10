@@ -16,7 +16,7 @@ This repository is dedicated to highlighting developments within the Quantum Inf
 - [Reduced-size plane-wave based representation of many-body methods for quantum computing](#Reduced-size-plane-wave-based-representation-of-many-body-methods-for-quantum-computing)
 - [Benchmarking adaptive variational quantum eigensolvers](#Benchmarking-adaptive-variational-quantum-eigensolvers)
 - [Even more efficient quantum computations of chemistry through tensor hypercontractions](#Even-more-efficient-quantum-computations-of-chemistry-through-tensor-hypercontractions)
-- [Dynamical Self-energy Mapping (DSEM) for quantum computing](#Dynamical-Self-energy-Mapping-(DSEM)-for-quantum-computing)
+- [Dynamical Self-energy Mapping (DSEM) for quantum computing](#dynamical-self-energy-mapping-dsem-for-quantum-computing)
 - [Simulating Quantum Materials with Digital Quantum Computers](#Simulating-Quantum-Materials-with-Digital-Quantum-Computers)
 - [Variational quantum solver employing the PDS energy functional](#Variational-quantum-solver-employing-the-PDS-energy-functional)
 - [Dimensionality reduction of many-body problem using coupled-cluster sub-system flow equations: classical and quantum computing perspective](#dimensionality-reduction-of-many-body-problem-using-coupled-cluster-sub-system-flow-equations-classical-and-quantum-computing-perspective)
