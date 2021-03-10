@@ -19,7 +19,7 @@ This repository is dedicated to highlighting developments within the Quantum Inf
 - [Dynamical Self-energy Mapping (DSEM) for quantum computing](#Dynamical-Self-energy-Mapping-(DSEM)-for-quantum-computing)
 --[Simulating Quantum Materials with Digital Quantum Computers](#Simulating-Quantum-Materials-with-Digital-Quantum-Computers)
 - [Variational quantum solver employing the PDS energy functional](#Variational-quantum-solver-employing-the-PDS-energy-functional)
-- [Dimensionality reduction of many-body problem using coupled-cluster sub-system flow equations: classical and quantum computing perspective](#Dimensionality-reduction-of-many-body-problem-using-coupled-cluster-sub-system-flow-equations:-classical-and-quantum-computing-perspective)
+- [Dimensionality reduction of many-body problem using coupled-cluster sub-system flow equations: classical and quantum computing perspective](#dimensionality-reduction-of-many-body-problem-using-coupled-cluster-sub-system-flow-equations-classical-and-quantum-computing-perspective)
 - [Effect of state preparation on the quantum connected moments expansion](#Effect-of-state-preparation-on-the-quantum-connected-moments-expansion)
 
 
