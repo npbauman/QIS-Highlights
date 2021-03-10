@@ -93,7 +93,7 @@ https://docs.microsoft.com/en-us/azure/quantum/ (Quantum Development Kit Documen
 
 ## Coupled Cluster Green’s function formulations based on the effective Hamiltonians
 
-"Coupled Cluster Green's function formulations based on the effective Hamiltonians," Nicholas P. Bauman,Bo Peng, and  Karol Kowalski, [*Mol. Phys.* **118** (2020)](https://doi.org/10.1080/00268976.2020.1725669); [*arXiv*:1910.00394](https://arxiv.org/abs/1910.00394) 
+"Coupled Cluster Green's function formulations based on the effective Hamiltonians," Nicholas P. Bauman, Bo Peng, and  Karol Kowalski, [*Mol. Phys.* **118** (2020)](https://doi.org/10.1080/00268976.2020.1725669); [*arXiv*:1910.00394](https://arxiv.org/abs/1910.00394) 
   
 **Challenge:**
 
