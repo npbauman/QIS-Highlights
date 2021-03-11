@@ -33,7 +33,7 @@ This repository is dedicated to highlighting developments within the Quantum Inf
 <sub><sup>Detailed workflow for simulating quantum chemistry on quantum computers.</sup></sub>
 </p>
   
-"Q# and NWChem: Tools for Scalable Quantum Chemistry on Quantum Computers," Guang Hao Low, Nicholas P. Bauman, Christopher E. Granade, Bo Peng, Nathan Wiebe, Eric J. Bylaska, Dave Wecker, Sriram Krishnamoorthy, Martin Roetteler, Karol Kowalski, Matthias Troyer, and Nathan A. Baker, [*arXiv*:1904.01131](https://arxiv.org/abs/1904.01131)
+"Q# and NWChem: Tools for Scalable Quantum Chemistry on Quantum Computers," Guang Hao Low, Nicholas P. Bauman, Christopher E. Granade, Bo Peng, Nathan Wiebe, Eric J. Bylaska, Dave Wecker, Sriram Krishnamoorthy, Martin Roetteler, Karol Kowalski, Matthias Troyer and Nathan A. Baker, [*arXiv*:1904.01131](https://arxiv.org/abs/1904.01131).
 
 **Challenge:** Enabling new quantum computing simulations in chemistry requires tight integration of computational chemistry infrastructure with novel quantum algorithms for ground- and excited-state simulations.
 
@@ -54,7 +54,7 @@ https://docs.microsoft.com/en-us/azure/quantum/ (Quantum Development Kit Documen
 <sub><sup>A schematic representation of the coupled cluster (CC) downfolding technique, where the CC Ansatz is used to generate effective/downfolded Hamiltonians in small-dimensionality active spaces.</sup></sub>
 </p>
   
-"Downfolding of many-body Hamiltonians using active-space models: Extension of the sub-system embedding sub-algebras approach to unitary coupled cluster formalisms," Nicholas P. Bauman, Eric J. Bylaska, Sriram Krishnamoorthy, Guang Hao Low, Nathan Wiebe, Christopher E. Granade, Martin Roetteler, Matthias Troyer, and Karol Kowalski, [*J. Chem. Phys.* **151**, 014107 (2019)](https://doi.org/10.1063/1.5094643); [*arXiv*:1902.01553](https://arxiv.org/abs/1902.01553)
+"Downfolding of many-body Hamiltonians using active-space models: Extension of the sub-system embedding sub-algebras approach to unitary coupled cluster formalisms," Nicholas P. Bauman, Eric J. Bylaska, Sriram Krishnamoorthy, Guang Hao Low, Nathan Wiebe, Christopher E. Granade, Martin Roetteler, Matthias Troyer and Karol Kowalski, [*J. Chem. Phys.* **151**, 014107 (2019)](https://doi.org/10.1063/1.5094643); [*arXiv*:1902.01553](https://arxiv.org/abs/1902.01553).
 
 **Challenge:** Limited quantum resources preclude simulations of complex and realistic chemical processes. Therefore, quantum computing is in high demand for efficient techniques for re-representing quantum many-body problems in reduced dimensionality spaces before reaching maturity.
 
@@ -68,7 +68,7 @@ https://docs.microsoft.com/en-us/azure/quantum/ (Quantum Development Kit Documen
 
 
 ##  Quantum simulations of excited state with active-space downfolded Hamiltonians
-"Quantum simulations of excited state with active-space downfolded Hamiltonians," Nicholas P. Bauman, Guang Hao Low, and Karol Kowalski, [*J. Chem. Phys.* **151**, 234114 (2019)](https://doi.org/10.1063/1.5128103); [*arXiv*:1909.06404](https://arxiv.org/abs/1909.06404) 
+"Quantum simulations of excited state with active-space downfolded Hamiltonians," Nicholas P. Bauman, Guang Hao Low and Karol Kowalski, [*J. Chem. Phys.* **151**, 234114 (2019)](https://doi.org/10.1063/1.5128103); [*arXiv*:1909.06404](https://arxiv.org/abs/1909.06404).
 
 **Challenge:**
 
@@ -80,7 +80,7 @@ https://docs.microsoft.com/en-us/azure/quantum/ (Quantum Development Kit Documen
 
 ## Resource-efficient VQE algorithms with downfolded Hamiltonians
 
-"Resource-Efficient Chemistry on Quantum Computers with the Variational Quantum Eigensolver and the Double Unitary Coupled-Cluster Approach," Mekena Metcalf, Nicholas P. Bauman, Karol Kowalski, and Wibe A. de Jong, [*J. Chem. Theory Comput.* **16**, 6165 (2020)](https://doi.org/10.1021/acs.jctc.0c00421); [*arXiv*:2004.07721](https://arxiv.org/abs/2004.07721)  
+"Resource-Efficient Chemistry on Quantum Computers with the Variational Quantum Eigensolver and the Double Unitary Coupled-Cluster Approach," Mekena Metcalf, Nicholas P. Bauman, Karol Kowalski and Wibe A. de Jong, [*J. Chem. Theory Comput.* **16**, 6165 (2020)](https://doi.org/10.1021/acs.jctc.0c00421); [*arXiv*:2004.07721](https://arxiv.org/abs/2004.07721).
 
 **Challenge:** In modeling many-body problems, the biggest challenge confronted is that the number of qubits scales linearly with the molecular basis's size. This poses a significant limitation on the basis sets' size and the number of correlated electrons included in quantum simulations of chemical processes.
 
@@ -93,7 +93,7 @@ https://docs.microsoft.com/en-us/azure/quantum/ (Quantum Development Kit Documen
 
 ## Coupled Cluster Green’s function formulations based on the effective Hamiltonians
 
-"Coupled Cluster Green's function formulations based on the effective Hamiltonians," Nicholas P. Bauman, Bo Peng, and  Karol Kowalski, [*Mol. Phys.* **118** (2020)](https://doi.org/10.1080/00268976.2020.1725669); [*arXiv*:1910.00394](https://arxiv.org/abs/1910.00394) 
+"Coupled Cluster Green's function formulations based on the effective Hamiltonians," Nicholas P. Bauman, Bo Peng and  Karol Kowalski, [*Mol. Phys.* **118** (2020)](https://doi.org/10.1080/00268976.2020.1725669); [*arXiv*:1910.00394](https://arxiv.org/abs/1910.00394).
   
 **Challenge:**
 
@@ -106,7 +106,7 @@ https://docs.microsoft.com/en-us/azure/quantum/ (Quantum Development Kit Documen
 
 ## A Filon-like integration strategy for calculating exact exchange in periodic boundary conditions
 
-"A Filon-like integration strategy for calculating exact exchange in periodic boundary conditions: a plane-wave DFT implementation," Eric J. Bylaska, Kevin Waters, Eric D/ Hermes, Judit Zádor, and Kevin M Rosso , [*Mater. Theory* **4**, 3 (2020)](https://doi.org/10.1186/s41313-020-00019-9)
+"A Filon-like integration strategy for calculating exact exchange in periodic boundary conditions: a plane-wave DFT implementation," Eric J. Bylaska, Kevin Waters, Eric D. Hermes, Judit Zádor and Kevin M Rosso, [*Mater. Theory* **4**, 3 (2020)](https://doi.org/10.1186/s41313-020-00019-9).
   
 **Challenge:**
 
@@ -119,7 +119,7 @@ https://docs.microsoft.com/en-us/azure/quantum/ (Quantum Development Kit Documen
 
 ## Sub-system quantum dynamics using coupled cluster downfolding techniques
 
-"Sub-system quantum dynamics using coupled cluster downfolding techniques," Karol Kowalski and Nicholas P. Bauman, [*J. Chem. Phys.* **152**, 244127 (2020)]( https://doi.org/10.1063/5.0008436); [*arXiv*:2003.09566](https://arxiv.org/abs/2003.09566) 
+"Sub-system quantum dynamics using coupled cluster downfolding techniques," Karol Kowalski and Nicholas P. Bauman, [*J. Chem. Phys.* **152**, 244127 (2020)]( https://doi.org/10.1063/5.0008436); [*arXiv*:2003.09566](https://arxiv.org/abs/2003.09566).
   
 **Challenge:**
 
@@ -132,7 +132,7 @@ https://docs.microsoft.com/en-us/azure/quantum/ (Quantum Development Kit Documen
 
 ## Exploiting chemistry and molecular systems for quantum information science
 
-"Exploiting chemistry and molecular systems for quantum information science," Michael R. Wasielewski, Malcolm D. E. Forbes, Natia L. Frank, Karol Kowalski, Gregory D. Scholes, Joel Yuen-Zhou, Marc A. Baldo, Danna E. Freedman, Randall H. Goldsmith, Theodore Goodson III, Martin L. Kirk, James K. McCusker, Jennifer P. Ogilvie, David A. Shultz, Stefan Stoll, and K. Birgitta Whaley , [*Nat. Rev. Chem.* **2**, 490 (2020)](https://doi.org/10.1038/s41570-020-0200-5)
+"Exploiting chemistry and molecular systems for quantum information science," Michael R. Wasielewski, Malcolm D. E. Forbes, Natia L. Frank, Karol Kowalski, Gregory D. Scholes, Joel Yuen-Zhou, Marc A. Baldo, Danna E. Freedman, Randall H. Goldsmith, Theodore Goodson III, Martin L. Kirk, James K. McCusker, Jennifer P. Ogilvie, David A. Shultz, Stefan Stoll and K. Birgitta Whaley , [*Nat. Rev. Chem.* **2**, 490 (2020)](https://doi.org/10.1038/s41570-020-0200-5).
   
 **Challenge:**
 
@@ -146,7 +146,7 @@ https://docs.microsoft.com/en-us/azure/quantum/ (Quantum Development Kit Documen
 
 ## Quantum computing for high-energy states - QPE simulations of core-level states
 
-"Toward Quantum Computing for High-Energy Excited States in Molecular Systems: Quantum Phase Estimations of Core-Level States," Nicholas P. Bauman, Hongbin Liu, Eric J. Bylaska, Sriram Krishnamoorthy, Guang Hao Low, Christopher E. Granade, Nathan Wiebe, Nathan Baker, Bo Peng, Martin Roetteler, Matthias Troyer, and Karol Kowalski,, [*J. Chem. Theory Comput.* **17**, 201 (2021)](https://doi.org/10.1021/acs.jctc.0c00909); [*arXiv*:2007.06185](https://arxiv.org/abs/2007.06185) 
+"Toward Quantum Computing for High-Energy Excited States in Molecular Systems: Quantum Phase Estimations of Core-Level States," Nicholas P. Bauman, Hongbin Liu, Eric J. Bylaska, Sriram Krishnamoorthy, Guang Hao Low, Christopher E. Granade, Nathan Wiebe, Nathan Baker, Bo Peng, Martin Roetteler, Matthias Troyer and Karol Kowalski, [*J. Chem. Theory Comput.* **17**, 201 (2021)](https://doi.org/10.1021/acs.jctc.0c00909); [*arXiv*:2007.06185](https://arxiv.org/abs/2007.06185).
 
 **Challenge:** The experimental effort at the BES-supported light source facilities is contingent on the availability of predictive modeling tools to interpret x-ray experimental spectra. However, the theoretical description and numerical identification of complicated core-level states still pose a significant challenge for approximate methods.
 
@@ -160,7 +160,7 @@ https://docs.microsoft.com/en-us/azure/quantum/ (Quantum Development Kit Documen
 
 ## Quantum Algorithms for Simulating the Lattice Schwinger Model
 
-"Quantum Algorithms for Simulating the Lattice Schwinger Model," Alexander F. Shaw, Pavel Lougovski, Jesse R. Stryker, and Nathan Wiebe, [*Quantum* **4**, 306 (2020)](	https://doi.org/10.22331/q-2020-08-10-306); [*arXiv*:2002.11146](https://arxiv.org/abs/2002.11146) 
+"Quantum Algorithms for Simulating the Lattice Schwinger Model," Alexander F. Shaw, Pavel Lougovski, Jesse R. Stryker and Nathan Wiebe, [*Quantum* **4**, 306 (2020)](	https://doi.org/10.22331/q-2020-08-10-306); [*arXiv*:2002.11146](https://arxiv.org/abs/2002.11146).
   
 **Challenge:**
 
@@ -173,7 +173,7 @@ https://docs.microsoft.com/en-us/azure/quantum/ (Quantum Development Kit Documen
 
 ## Quantum algorithms for connected moments expansion
 
-"Quantum simulations employing connected moments expansion," Karol Kowalski and Bo Peng, [*J. Chem. Phys.* **153**, 201102 (2020)](https://doi.org/10.1063/5.0030688); [*arXiv*:2009.05709](https://arxiv.org/abs/2009.05709) 
+"Quantum simulations employing connected moments expansion," Karol Kowalski and Bo Peng, [*J. Chem. Phys.* **153**, 201102 (2020)](https://doi.org/10.1063/5.0030688); [*arXiv*:2009.05709](https://arxiv.org/abs/2009.05709).
 
 **Challenge:** Further advancement of quantum computing is contingent on enabling models that avoid deep circuits (Fig.7) and the excessive use of CNOT gates and associated noise effects.
 
@@ -185,7 +185,7 @@ https://docs.microsoft.com/en-us/azure/quantum/ (Quantum Development Kit Documen
 
 ## Variational Quantum Eigensolver for Approximate Diagonalization of Downfolded Hamiltonians using Generalized Unitary Coupled Cluster Ansatz
 
-"Variational Quantum Eigensolver for Approximate Diagonalization of Downfolded Hamiltonians using Generalized Unitary Coupled Cluster Ansatz," Nicholas P. Bauman, Jaroslav Chládek, Libor Veis, Jiří Pittner, Karol Kowalski,[*arXiv*:2011.01985](https://arxiv.org/abs/2011.01985) 
+"Variational Quantum Eigensolver for Approximate Diagonalization of Downfolded Hamiltonians using Generalized Unitary Coupled Cluster Ansatz," Nicholas P. Bauman, Jaroslav Chládek, Libor Veis, Jiří Pittner Karol Kowalski,[*arXiv*:2011.01985](https://arxiv.org/abs/2011.01985).
   
 **Challenge:**
 
@@ -199,7 +199,7 @@ https://docs.microsoft.com/en-us/azure/quantum/ (Quantum Development Kit Documen
 
 ## Reduced-size plane-wave based representation of many-body methods for quantum computing
 
-"Quantum Solvers for Plane-Wave Hamiltonians: Abridging Virtual Spaces Through the Optimization of Pairwise Correlations,"  Eric Bylaska, Duo Song, Nicholas P. Bauman, Karol Kowalski, Daniel Claudino and Travis S. Humble, [*Front. Chem.*](https://www.frontiersin.org/articles/10.3389/fchem.2021.603019/abstract); [*arXiv*:2009.00080](https://arxiv.org/abs/2009.00080) 
+"Quantum Solvers for Plane-Wave Hamiltonians: Abridging Virtual Spaces Through the Optimization of Pairwise Correlations,"  Eric Bylaska, Duo Song, Nicholas P. Bauman, Karol Kowalski, Daniel Claudino and Travis S. Humble, [*Front. Chem.*](https://www.frontiersin.org/articles/10.3389/fchem.2021.603019/abstract); [*arXiv*:2009.00080](https://arxiv.org/abs/2009.00080).
 
 **Challenge:** The proper choice of molecular basis set is an essential factor contributing to the efficiency of quantum algorithms in applications to quantum chemistry. This issue is critical in VQE unitary CC and QPE formulations, where a compact representation of virtual orbitals plays a crucial role in the accuracy and efficiency of quantum algorithms. 
 
@@ -211,7 +211,7 @@ https://docs.microsoft.com/en-us/azure/quantum/ (Quantum Development Kit Documen
 
 ## Benchmarking adaptive variational quantum eigensolvers
 
-"Benchmarking Adaptive Variational Quantum Eigensolvers,"  Daniel Claudino, Jerimiah Wright, Alexander J. McCaskey and Travis S. Humble, [*Front. Chem.* (2020)](https://doi.org/10.3389/fchem.2020.606863); [*arXiv*:2011.01279](https://arxiv.org/abs/2011.01279) 
+"Benchmarking Adaptive Variational Quantum Eigensolvers,"  Daniel Claudino, Jerimiah Wright, Alexander J. McCaskey and Travis S. Humble, [*Front. Chem.* (2020)](https://doi.org/10.3389/fchem.2020.606863); [*arXiv*:2011.01279](https://arxiv.org/abs/2011.01279).
 
 **Challenge:** The long-term success of quantum computing will depend on the efficiency with which the algorithms solve important problems, and this work addresses the question of what makes a good algorithm for electronic structure calculations from quantum chemistry. While the results are limited to the ground-states of diatomic molecules solved using noiseless simulation, they provide ground truth for how well such variational methods may perform. In addition, this work supports the broader goal of establishing a diverse library of quantum algorithms.
 
@@ -225,7 +225,7 @@ https://docs.microsoft.com/en-us/azure/quantum/ (Quantum Development Kit Documen
 
 ## Even more efficient quantum computations of chemistry through tensor hypercontractions
 
-"Even more efficient quantum computations of chemistry through tensor hypercontractions," Joonho Lee, Dominic W. Berry, Craig Gidney, William J. Huggins, Jarrod R. McClean, Nathan Wiebe and Ryan Babbush, [*arXiv*:2011.03494](https://arxiv.org/abs/2011.03494) 
+"Even more efficient quantum computations of chemistry through tensor hypercontractions," Joonho Lee, Dominic W. Berry, Craig Gidney, William J. Huggins, Jarrod R. McClean, Nathan Wiebe and Ryan Babbush, [*arXiv*:2011.03494](https://arxiv.org/abs/2011.03494).
   
 **Challenge:**
 
@@ -238,7 +238,7 @@ https://docs.microsoft.com/en-us/azure/quantum/ (Quantum Development Kit Documen
 
 ## Dynamical Self-energy Mapping (DSEM) for quantum computing
 
-"Dynamical Self-energy Mapping (DSEM) for quantum computing," Diksha Dhawan, Mekena Metcalf, Dominika Zgid, [*arXiv*:2010.05441](https://arxiv.org/abs/2010.05441) 
+"Dynamical Self-energy Mapping (DSEM) for quantum computing," Diksha Dhawan, Mekena Metcalf and Dominika Zgid, [*arXiv*:2010.05441](https://arxiv.org/abs/2010.05441).
   
 **Challenge:**
 
@@ -251,7 +251,7 @@ https://docs.microsoft.com/en-us/azure/quantum/ (Quantum Development Kit Documen
 
 ## Simulating Quantum Materials with Digital Quantum Computers
 
-"Simulating Quantum Materials with Digital Quantum Computers," Lindsay Bassman, Miroslav Urbanek, Mekena Metcalf, Jonathan Carter, Alexander F. Kemper, Wibe de Jong, [*arXiv*:2101.08836](https://arxiv.org/abs/2101.08836) 
+"Simulating Quantum Materials with Digital Quantum Computers," Lindsay Bassman, Miroslav Urbanek, Mekena Metcalf, Jonathan Carter, Alexander F. Kemper and Wibe de Jong, [*arXiv*:2101.08836](https://arxiv.org/abs/2101.08836).
   
 **Challenge:**
 
@@ -264,7 +264,7 @@ https://docs.microsoft.com/en-us/azure/quantum/ (Quantum Development Kit Documen
 
 ## Variational quantum solver employing the PDS energy functional
 
-"Variational quantum solver employing the PDS energy functional," Bo Peng and Karol Kowalski, [*arXiv*:2101.08526](https://arxiv.org/abs/2101.08526) 
+"Variational quantum solver employing the PDS energy functional," Bo Peng and Karol Kowalski, [*arXiv*:2101.08526](https://arxiv.org/abs/2101.08526).
   
 **Challenge:**
 
@@ -277,7 +277,7 @@ https://docs.microsoft.com/en-us/azure/quantum/ (Quantum Development Kit Documen
 
 ## Dimensionality reduction of many-body problem using coupled-cluster sub-system flow equations: classical and quantum computing perspective
 
-"Dimensionality reduction of many-body problem using coupled-cluster sub-system flow equations: classical and quantum computing perspective," Karol Kowalski, [*arXiv*:2102.05783](https://arxiv.org/abs/2102.05783) 
+"Dimensionality reduction of many-body problem using coupled-cluster sub-system flow equations: classical and quantum computing perspective," Karol Kowalski, [*arXiv*:2102.05783](https://arxiv.org/abs/2102.05783).
   
 **Challenge:**
 
@@ -292,7 +292,7 @@ https://docs.microsoft.com/en-us/azure/quantum/ (Quantum Development Kit Documen
 
 ## Effect of state preparation on the quantum connected moments expansion
 
-"Effect of state preparation on the quantum connected moments expansion," Daniel Claudino, Bo Peng, Nicholas P. Bauman, Karol Kowalski and Travis S. Humble, [*Quantum Sci. Technol.* (submitted)]
+"Effect of state preparation on the quantum connected moments expansion," Daniel Claudino, Bo Peng, Nicholas P. Bauman, Karol Kowalski and Travis S. Humble, [*Quantum Sci. Technol.* (submitted)].
   
 **Challenge:**
 
