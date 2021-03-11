@@ -185,7 +185,7 @@ https://docs.microsoft.com/en-us/azure/quantum/ (Quantum Development Kit Documen
 
 ## Variational Quantum Eigensolver for Approximate Diagonalization of Downfolded Hamiltonians using Generalized Unitary Coupled Cluster Ansatz
 
-"Variational Quantum Eigensolver for Approximate Diagonalization of Downfolded Hamiltonians using Generalized Unitary Coupled Cluster Ansatz," Nicholas P. Bauman, Jaroslav Chládek, Libor Veis, Jiří Pittner Karol Kowalski,[*arXiv*:2011.01985](https://arxiv.org/abs/2011.01985).
+"Variational Quantum Eigensolver for Approximate Diagonalization of Downfolded Hamiltonians using Generalized Unitary Coupled Cluster Ansatz," Nicholas P. Bauman, Jaroslav Chládek, Libor Veis, Jiří Pittner Karol Kowalski, [*arXiv*:2011.01985](https://arxiv.org/abs/2011.01985).
   
 **Challenge:**
 
@@ -215,7 +215,7 @@ https://docs.microsoft.com/en-us/azure/quantum/ (Quantum Development Kit Documen
 
 **Challenge:** The long-term success of quantum computing will depend on the efficiency with which the algorithms solve important problems, and this work addresses the question of what makes a good algorithm for electronic structure calculations from quantum chemistry. While the results are limited to the ground-states of diatomic molecules solved using noiseless simulation, they provide ground truth for how well such variational methods may perform. In addition, this work supports the broader goal of establishing a diverse library of quantum algorithms.
 
-**Approach and Results:** The accuracy of quantum computing methods to calculate the electronic ground states and potential energy curves for selected diatomic molecules, namely H2, NaH, and KH has been investigated (Fig.8). Using numerical simulation, it was found that multiple methods provide good estimates of the energy and ground state, but only some methods were shown to be robust to the underlying optimization methods. An important finding from this work is that current, gradient-based optimizations is more economical and delivers superior performance than analogous simulations carried out with gradient-free optimizers. The results also identify small errors in the prepared state fidelity which show an increasing trend with molecular size.
+**Approach and Results:** The accuracy of quantum computing methods to calculate the electronic ground states and potential energy curves for selected diatomic molecules, namely H2, NaH, and KH has been investigated. Using numerical simulation, it was found that multiple methods provide good estimates of the energy and ground state, but only some methods were shown to be robust to the underlying optimization methods. An important finding from this work is that current, gradient-based optimizations is more economical and delivers superior performance than analogous simulations carried out with gradient-free optimizers. The results also identify small errors in the prepared state fidelity which show an increasing trend with molecular size.
 
 **Significance and Impact:** The long-term success of quantum computing will depend on the efficiency with which the algorithms solve important problems, and this work addresses the question of what makes a good algorithm for electronic structure calculations from quantum chemistry. While the results are limited to the ground-states of diatomic molecules solved using noiseless simulation, they provide ground truth for how well such variational methods may perform. In addition, this work supports the broader goal of establishing a diverse library of quantum algorithms.
 
