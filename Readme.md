@@ -68,14 +68,21 @@ https://docs.microsoft.com/en-us/azure/quantum/ (Quantum Development Kit Documen
 
 
 ##  Quantum simulations of excited state with active-space downfolded Hamiltonians
+<p align="center">
+  <img width="400" src="https://github.com/npbauman/BES-QIS/blob/fa24a1e79352f4a8084548514c12154ae1e2207b/Figures/Excited_States_H2.png"> <br>
+<sub><sup> A typical distribution of energies for a strongly correlated system obtained from several simulations with the QPE algorithm. This particular spread of energies corresponds to H2.</sup></sub>
+</p>
+
 "Quantum simulations of excited state with active-space downfolded Hamiltonians," Nicholas P. Bauman, Guang Hao Low and Karol Kowalski, [*J. Chem. Phys.* **151**, 234114 (2019)](https://doi.org/10.1063/1.5128103); [*arXiv*:1909.06404](https://arxiv.org/abs/1909.06404).
 
-**Challenge:**
+**Challenge:** Even though impressive progress has been achieved in developing wavefunction-based excited-state approaches, problems with the description of complicated states dominated by high-rank excitations still exist. Of particular interest is the application to strongly correlated molecular systems characterized by small energy gaps between occupied and unoccupied orbitals where multiple electronic states defined by complex collective phenomena lie.
 
-**Approach and Results:**
+**Approach and Results:** The stochastic nature of the quantum phase estimation (QPE) algorithm opens the opportunity to discover/identify novel and exotic excited states that classical methods struggle in describing. The probability of finding such states through repeated simulations is driven by an initial guess of the true configuration structure of a sought-after excited state, even if it is limited or postulated. We demonstrated that not only does the QPE capture several excited states of various complexity, but a distribution of eigenstate energies is collected from a single initial state through repeated QPE simulations. This contrasts with other quantum algorithms, such as VQE approaches, which only provide energy estimates for a single targeted state. The QPE algorithm was combined with the excited-state extension of the double unitary coupled cluster (DUCC) formalism to construct active-space representations of downfolded Hamiltonians that can be used to reproduce a large portion of excited-state correlation effect and are amenable for quantum computers.
 
-**Significance and Impact:**
+**Significance and Impact:** It was demonstrated that the QPE algorithm is an efficient tool for testing various "excited-state" hypotheses for strongly correlated systems, which usually pose a significant challenge for existing many-body formalisms. Using QPE techniques, one can obtain a spectrum of all states that have non-negligible overlap with the hypothesis state, a fact is well-known in quantum computing but deserves broader exposure. The stochastic character of QPE may be instrumental in studies of excited-state processes, especially in strongly correlated or metallic-like systems. In addition, the promising results of the DUCC excited-state extension pave the way for future developments of the method.
 
+https://nwchemgit.github.io/ (NWChem Documentation)  
+https://docs.microsoft.com/en-us/azure/quantum/ (Quantum Development Kit Documentation)
 
 
 ## Resource-efficient VQE algorithms with downfolded Hamiltonians
