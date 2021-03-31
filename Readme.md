@@ -112,6 +112,7 @@ https://docs.microsoft.com/en-us/azure/quantum/ (Quantum Development Kit Documen
 
 **Significance and Impact:** We demonstrated that the utilization of the effective Hamiltonian stemming from the DUCC downfolding procedure can be used to reproduce the main features of the standard GFCCSD spectral function while significantly reducing the cost of the GFCC calculations. A growing interest in quantum computing algorithms for correlated Green's function makes reduced-dimension DUCC-GFCC formulations a possible target for early quantum computing applications.
 
+https://nwchemgit.github.io/ (NWChem Documentation)  
 
 
 
