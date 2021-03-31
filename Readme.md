@@ -100,7 +100,7 @@ https://docs.microsoft.com/en-us/azure/quantum/ (Quantum Development Kit Documen
 
 ## Coupled Cluster Green’s function formulations based on the effective Hamiltonians
 <p align="center">
-  <img width="400" src=""> <br>
+  <img width="400" src="https://github.com/npbauman/BES-QIS/blob/f1a9e3e87afdff033662f8c1f3d48a02be7940ee/Figures/DUCC-GFCCSD_N2.png"> <br>
 <sub><sup> Spectral functions of N2 in the valence energy regimes directly computed by the closed-shell GFCCSD and DUCC-GFCCSD methods with cc-pVDZ basis set.</sup></sub>
 </p>
 
