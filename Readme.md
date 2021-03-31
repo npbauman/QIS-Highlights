@@ -86,6 +86,10 @@ https://docs.microsoft.com/en-us/azure/quantum/ (Quantum Development Kit Documen
 
 
 ## Resource-efficient VQE algorithms with downfolded Hamiltonians
+<p align="center">
+  <img width="400" src="https://github.com/npbauman/BES-QIS/blob/cfa60174e5876ea633879b4145b293318583cb85/Figures/VQE-DUCC_Li2.png"> <br>
+<sub><sup> Ground state energy of Li2 with the cc-pvtz basis. The errors, ε, of the VQE-DUCC and the active-space CCSDTQ calculations are with respect to the 60-orbital CCSDTQ energies.</sup></sub>
+</p>
 
 "Resource-Efficient Chemistry on Quantum Computers with the Variational Quantum Eigensolver and the Double Unitary Coupled-Cluster Approach," Mekena Metcalf, Nicholas P. Bauman, Karol Kowalski and Wibe A. de Jong, [*J. Chem. Theory Comput.* **16**, 6165 (2020)](https://doi.org/10.1021/acs.jctc.0c00421); [*arXiv*:2004.07721](https://arxiv.org/abs/2004.07721).
 
