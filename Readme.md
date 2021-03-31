@@ -99,14 +99,18 @@ https://docs.microsoft.com/en-us/azure/quantum/ (Quantum Development Kit Documen
 
 
 ## Coupled Cluster Green’s function formulations based on the effective Hamiltonians
+<p align="center">
+  <img width="400" src=""> <br>
+<sub><sup> Spectral functions of N2 in the valence energy regimes directly computed by the closed-shell GFCCSD and DUCC-GFCCSD methods with cc-pVDZ basis set.</sup></sub>
+</p>
 
 "Coupled Cluster Green's function formulations based on the effective Hamiltonians," Nicholas P. Bauman, Bo Peng and  Karol Kowalski, [*Mol. Phys.* **118** (2020)](https://doi.org/10.1080/00268976.2020.1725669); [*arXiv*:1910.00394](https://arxiv.org/abs/1910.00394).
   
-**Challenge:**
+**Challenge:** The recently developed double unitary coupled cluster (DUCC) formalism for for integrating out high-energy wave-function components from low-energy ones in the effective (or downfolded) Hamiltonians was shown to be promising. While in its prime, the utility of the formalism still needed affirming by combining it with existing and powerful many-body methods.
 
-**Approach and Results:**
+**Approach and Results:** The Green’s function coupled cluster (GFCC) approach remains an active area of development and was chosen to investigate the performance of the DUCC downfolding proceedure. This combined approach (DUCC-GFCC) was applied to H2O, N2, CO, and trans-1,3-butadiene and shown to provide a significant reduction of numerical effort and good agreement with the corresponding all-orbital GFCC methods in energy windows that are consistent with the choice of active space. Spectral functions were also shown to systematically improve with larger active spaces while maintaining a significant reduction in dimensionality, unlike standard truncated Hamiltonians where errors were sporadic. 
 
-**Significance and Impact:**
+**Significance and Impact:** We demonstrated that the utilization of the effective Hamiltonian stemming from the DUCC downfolding procedure can be used to reproduce the main features of the standard GFCCSD spectral function while significantly reducing the cost of the GFCC calculations. A growing interest in quantum computing algorithms for correlated Green's function makes reduced-dimension DUCC-GFCC formulations a possible target for early quantum computing applications.
 
 
 
