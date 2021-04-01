@@ -147,14 +147,13 @@ https://nwchemgit.github.io/ (NWChem Documentation)
 
 
 ## Exploiting chemistry and molecular systems for quantum information science
+<p align="center">
+  <img width="400" src=""> <br>
+</p>
 
 "Exploiting chemistry and molecular systems for quantum information science," Michael R. Wasielewski, Malcolm D. E. Forbes, Natia L. Frank, Karol Kowalski, Gregory D. Scholes, Joel Yuen-Zhou, Marc A. Baldo, Danna E. Freedman, Randall H. Goldsmith, Theodore Goodson III, Martin L. Kirk, James K. McCusker, Jennifer P. Ogilvie, David A. Shultz, Stefan Stoll and K. Birgitta Whaley , [*Nat. Rev. Chem.* **2**, 490 (2020)](https://doi.org/10.1038/s41570-020-0200-5).
   
-**Challenge:**
-
-**Approach and Results:**
-
-**Significance and Impact:**
+**Abstract:** The power of chemistry to prepare new molecules and materials has driven the quest for new approaches to solve problems having global societal impact, such as in renewable energy, healthcare and information science. In the latter case, the intrinsic quantum nature of the electronic, nuclear and spin degrees of freedom in molecules offers intriguing new possibilities to advance the emerging field of quantum information science. In this Perspective, which resulted from discussions by the co-authors at a US Department of Energy workshop held in November 2018, we discuss how chemical systems and reactions can impact quantum computing, communication and sensing. Hierarchical molecular design and synthesis, from small molecules to supramolecular assemblies, combined with new spectroscopic probes of quantum coherence and theoretical modelling of complex systems, offer a broad range of possibilities to realize practical quantum information science applications.
 
 
 
