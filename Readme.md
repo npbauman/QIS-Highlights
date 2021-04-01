@@ -202,11 +202,11 @@ https://nwchemgit.github.io/ (NWChem Documentation)
 
 "Variational Quantum Eigensolver for Approximate Diagonalization of Downfolded Hamiltonians using Generalized Unitary Coupled Cluster Ansatz," Nicholas P. Bauman, Jaroslav Chládek, Libor Veis, Jiří Pittner Karol Kowalski, [*arXiv*:2011.01985](https://arxiv.org/abs/2011.01985).
   
-**Challenge:**
+**Challenge:** The applicability of quantum algorithms is either limited by the number of variational variables and the numbers of necessary measurements or by the circuit depths. Their accuracy is reliant on underlying approximations. Understanding how these approximations perform, especially when coupled with techniques for reducing the system's dimensionality, is crucial for applications on quantum computers.
 
-**Approach and Results:**
+**Approach and Results:** We investigated the utilization of variational quantum solver (VQE) and the recently introduced generalized unitary coupled cluster (GUCC) formalism for the diagonalization of downfolded/effective Hamiltonians in active spaces. We also considered various solvers to identify solutions of the GUCC equations using N2, H2O, and C2H4 as benchmark systems to illustrate the combined framework's performance. Our numerical data suggest that UGCCSD can yield energies and wave functions close to the FCI solution, certainly superior to the UCCSD Ansatz. We also showed that the initial guesses in the form of matrix product states, which can be efficiently prepared on a quantum register, can improve the VQE-GUCC method's accuracy for multireference systems.
 
-**Significance and Impact:**
+**Significance and Impact:** This work promotes the GUCC methodology as a reliable formalism for quantum computing applications. We observed that initial guesses are an influential component of quantum calculations and warrant further investigation. 
 
 
 
