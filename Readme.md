@@ -137,11 +137,11 @@ https://nwchemgit.github.io/ (NWChem Documentation)
 
 "Sub-system quantum dynamics using coupled cluster downfolding techniques," Karol Kowalski and Nicholas P. Bauman, [*J. Chem. Phys.* **152**, 244127 (2020)]( https://doi.org/10.1063/5.0008436); [*arXiv*:2003.09566](https://arxiv.org/abs/2003.09566).
   
-**Challenge:**
+**Challenge:** As quantum computing rapidly develops, there is a growing interest in simulations involving imaginary time evolution. However, like their standard counterparts, the scaling of the number of qubits with the system size imposes a significant limitation on the basis set size and number of correlated electrons. 
 
-**Approach and Results:**
+**Approach and Results:** We presented an extension of the sub-system embedding sub-algebra coupled cluster (SESCC) formalism and the double unitary coupled cluster (DUCC) Ansatz to the time domain. Prior to this work, development of the DUCC formalism was predicated on assuming the exactness of the double unitary CC ansatz. We were able to complement the time domain discussion by showing that the exact wave function can be represented by the double unitary exponential ansatz with general-type anti-Hermitian many-body cluster operators representing internal and external excitations. This result corresponds to the general property of the exact wave function proven at the level of SESCC formalism.
 
-**Significance and Impact:**
+**Significance and Impact:** The DUCC formalism provides a rigorous many-body characterization of the time-dependent action functional to describe the dynamics of the entire system in time modes captured by the corresponding active space. This approach and corresponding approximations can not only reduce the cost of time-domain CC simulations for larger molecular applications. However, they can also be employed in the imaginary time evolution, which has recently been intensively studied in the context of quantum computing.
 
 
 
