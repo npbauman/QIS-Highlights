@@ -199,6 +199,10 @@ https://nwchemgit.github.io/ (NWChem Documentation)
 
 
 ## Variational Quantum Eigensolver for Approximate Diagonalization of Downfolded Hamiltonians using Generalized Unitary Coupled Cluster Ansatz
+<p align="center">
+  <img width="400" src="https://github.com/npbauman/BES-QIS/blob/17b2162f6bd2f36d7402d0fad42238896c87a840/Figures/GUCC-VQE_N2.png"> <br>
+<sub><sup> Total energies for the dissociation of N2.</sup></sub>
+</p>
 
 "Variational Quantum Eigensolver for Approximate Diagonalization of Downfolded Hamiltonians using Generalized Unitary Coupled Cluster Ansatz," Nicholas P. Bauman, Jaroslav Chládek, Libor Veis, Jiří Pittner Karol Kowalski, [*arXiv*:2011.01985](https://arxiv.org/abs/2011.01985).
   
