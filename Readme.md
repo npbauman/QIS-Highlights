@@ -1,4 +1,4 @@
-This repository is dedicated to highlighting developments within the Quantum Information Science (QIS) Initiative at the Pacific Northwest National Laboratory (PNNL). It also provides some links, software, and data pertinent to the projects as well. 
+This repository is dedicated to highlighting developments within the Quantum Information Science (QIS) Initiative. It also provides some links, software, and data pertinent to the projects as well. 
 
 **Table of Contents**
 - [Development of the NWChem-QDK interface](#Development-of-the-NWChem-QDK-interface)
@@ -292,11 +292,11 @@ https://nwchemgit.github.io/ (NWChem Documentation)
 
 "Dimensionality reduction of many-body problem using coupled-cluster sub-system flow equations: classical and quantum computing perspective," Karol Kowalski, [*arXiv*:2102.05783](https://arxiv.org/abs/2102.05783).
   
-**Challenge:**
+**Challenge:** Efficient probing of the large sub-spaces by quantum algorithms emerges as a critical challenge for accurate quantum simulations of chemical systems.
 
-**Approach and Results:**
+**Approach and Results:** To address this challenge, we have extended the active-space downfolding formalisms into quantum flow algorithm  (QFA), where the high-dimensionality quantum problem is partitioned into coupled low-dimensionality eigenvalue problems amenable to quantum computing. This formalism precisely defines the communication protocol  between sub-problems involved in the flow and can be easily extended to the time domain. 
 
-**Significance and Impact:**
+**Significance and Impact:** The QFA formalism enables to probe large sub-spaces of Hilbert space in a size-consistent manner without significant increase in quantum resources. It is also ideally suited to develop quantum algorithms for local formulations of quantum chemical methods. 
 
 
 
