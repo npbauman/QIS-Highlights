@@ -1,4 +1,4 @@
-This repository is dedicated to highlighting developments within the Quantum Information Science (QIS) Initiative at the Pacific Northwest National Laboratory (PNNL). It also provides some links, software, and data pertinent to the projects as well. 
+This repository is dedicated to highlighting developments within the Quantum Information Science (QIS) Initiative. It also provides some links, software, and data pertinent to the projects as well. 
 
 **Table of Contents**
 - [Development of the NWChem-QDK interface](#Development-of-the-NWChem-QDK-interface)
@@ -148,7 +148,7 @@ https://nwchemgit.github.io/ (NWChem Documentation)
 
 ## Exploiting chemistry and molecular systems for quantum information science
 <p align="center">
-  <img width="400" src=""> <br>
+  <img width="600" src="https://github.com/npbauman/BES-QIS/blob/655788a273ab82d0cae05acc2564874715a15491/Figures/NatRev_Figure.png"> <br>
 </p>
 
 "Exploiting chemistry and molecular systems for quantum information science," Michael R. Wasielewski, Malcolm D. E. Forbes, Natia L. Frank, Karol Kowalski, Gregory D. Scholes, Joel Yuen-Zhou, Marc A. Baldo, Danna E. Freedman, Randall H. Goldsmith, Theodore Goodson III, Martin L. Kirk, James K. McCusker, Jennifer P. Ogilvie, David A. Shultz, Stefan Stoll and K. Birgitta Whaley , [*Nat. Rev. Chem.* **2**, 490 (2020)](https://doi.org/10.1038/s41570-020-0200-5).
@@ -202,11 +202,11 @@ https://nwchemgit.github.io/ (NWChem Documentation)
 
 "Variational Quantum Eigensolver for Approximate Diagonalization of Downfolded Hamiltonians using Generalized Unitary Coupled Cluster Ansatz," Nicholas P. Bauman, Jaroslav Chládek, Libor Veis, Jiří Pittner Karol Kowalski, [*arXiv*:2011.01985](https://arxiv.org/abs/2011.01985).
   
-**Challenge:**
+**Challenge:** The applicability of quantum algorithms is either limited by the number of variational variables and the numbers of necessary measurements or by the circuit depths. Their accuracy is reliant on underlying approximations. Understanding how these approximations perform, especially when coupled with techniques for reducing the system's dimensionality, is crucial for applications on quantum computers.
 
-**Approach and Results:**
+**Approach and Results:** We investigated the utilization of variational quantum solver (VQE) and the recently introduced generalized unitary coupled cluster (GUCC) formalism for the diagonalization of downfolded/effective Hamiltonians in active spaces. We also considered various solvers to identify solutions of the GUCC equations using N2, H2O, and C2H4 as benchmark systems to illustrate the combined framework's performance. Our numerical data suggest that UGCCSD can yield energies and wave functions close to the FCI solution, certainly superior to the UCCSD Ansatz. We also showed that the initial guesses in the form of matrix product states, which can be efficiently prepared on a quantum register, can improve the VQE-GUCC method's accuracy for multireference systems.
 
-**Significance and Impact:**
+**Significance and Impact:** This work promotes the GUCC methodology as a reliable formalism for quantum computing applications. We observed that initial guesses are an influential component of quantum calculations and warrant further investigation. 
 
 
 
@@ -292,11 +292,11 @@ https://nwchemgit.github.io/ (NWChem Documentation)
 
 "Dimensionality reduction of many-body problem using coupled-cluster sub-system flow equations: classical and quantum computing perspective," Karol Kowalski, [*arXiv*:2102.05783](https://arxiv.org/abs/2102.05783).
   
-**Challenge:**
+**Challenge:** Efficient probing of the large sub-spaces by quantum algorithms emerges as a critical challenge for accurate quantum simulations of chemical systems.
 
-**Approach and Results:**
+**Approach and Results:** To address this challenge, we have extended the active-space downfolding formalisms into quantum flow algorithm  (QFA), where the high-dimensionality quantum problem is partitioned into coupled low-dimensionality eigenvalue problems amenable to quantum computing. This formalism precisely defines the communication protocol  between sub-problems involved in the flow and can be easily extended to the time domain. 
 
-**Significance and Impact:**
+**Significance and Impact:** The QFA formalism enables to probe large sub-spaces of Hilbert space in a size-consistent manner without significant increase in quantum resources. It is also ideally suited to develop quantum algorithms for local formulations of quantum chemical methods. 
 
 
 
