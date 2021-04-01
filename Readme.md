@@ -282,13 +282,11 @@ https://nwchemgit.github.io/ (NWChem Documentation)
 
 "Variational quantum solver employing the PDS energy functional," Bo Peng and Karol Kowalski, [*arXiv*:2101.08526](https://arxiv.org/abs/2101.08526).
   
-**Challenge:**
+**Challenge:** To capture a subtle balance between static and dynamical correlations effect in quantum computing, the conventional variational quantum eigensolver (VQE) approach requires incorporating more and more parameters in the anasatz state preparation, which on the other hand makes the VQE approach vulnerable to complex quantum circuit and staggered optimization on classical machines.
 
-**Approach and Results:**
+**Approach and Results:** Here we find that a new class of objective cost function based on the Peeters-Devreese-Soldatov (PDS) formulation can be employed in a conventional VQE framework. In comparison with the conventional VQE and the static PDS approach, this new variational quantum solver offers an effective approach that helps navigate the optimization dynamics on the upper bound energy landscape of the target state, thus let the dynamics be free from getting trapped in the local minima that refer to different states. We demonstrate the performance of the proposed variational quantum solver for toy models, H2 molecule, and strongly correlated planar H4 system in some challenging situations. In all the case studies, the proposed variational quantum approach outperforms the usual VQE and static PDS calculations even at the lowest order.
 
-**Significance and Impact:**
-
-
+**Significance and Impact:** The proposed variational quantum solver employing the PDS functionals helps achieve high accuracy at finding the ground state and its energy through the rotation of the trial wave function of modest quality, thus improves the accuracy and efficiency of the quantum simulation. 
 
 
 ## Dimensionality reduction of many-body problem using coupled-cluster sub-system flow equations: classical and quantum computing perspective
