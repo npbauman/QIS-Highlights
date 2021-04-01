@@ -148,7 +148,7 @@ https://nwchemgit.github.io/ (NWChem Documentation)
 
 ## Exploiting chemistry and molecular systems for quantum information science
 <p align="center">
-  <img width="400" src=""> <br>
+  <img width="600" src="https://github.com/npbauman/BES-QIS/blob/655788a273ab82d0cae05acc2564874715a15491/Figures/NatRev_Figure.png"> <br>
 </p>
 
 "Exploiting chemistry and molecular systems for quantum information science," Michael R. Wasielewski, Malcolm D. E. Forbes, Natia L. Frank, Karol Kowalski, Gregory D. Scholes, Joel Yuen-Zhou, Marc A. Baldo, Danna E. Freedman, Randall H. Goldsmith, Theodore Goodson III, Martin L. Kirk, James K. McCusker, Jennifer P. Ogilvie, David A. Shultz, Stefan Stoll and K. Birgitta Whaley , [*Nat. Rev. Chem.* **2**, 490 (2020)](https://doi.org/10.1038/s41570-020-0200-5).
