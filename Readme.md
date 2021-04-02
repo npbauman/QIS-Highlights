@@ -383,6 +383,10 @@ https://xacc.readthedocs.io/en/latest/ (XACC Documentation)
 
 
 ## Improving the accuracy and efficiency of quantum connected moments expansions
+<p align="center">
+  <img width="400" src="https://github.com/npbauman/BES-QIS/blob/a347c6fa28dfb40cfc0d7c91cf938a1f03a4d0dd/Figures/CMX-H2.png"> <br>
+<sub><sup> Potential energy curves of H<sub>2</sub> in the 6-31G basis.</sup></sub>
+</p>
 
 "Improving the accuracy and efficiency of quantum connected moments expansions," Daniel Claudino, Bo Peng, Nicholas P. Bauman, Karol Kowalski and Travis S. Humble, [*arXiv*:2103.09124](https://arxiv.org/abs/2103.09124).
 
