@@ -271,6 +271,10 @@ https://docs.microsoft.com/en-us/azure/quantum/ (Quantum Development Kit Documen
 
 
 ## Benchmarking adaptive variational quantum eigensolvers
+<p align="center">
+  <img width="400" src="https://github.com/npbauman/BES-QIS/blob/d56ca1b91c28e0555653ee522d547d8b60258094/Figures/VQE_NaH.png"> <br>
+<sub><sup> Potential energy curves of NaH computed with the STO-3G basis set.</sup></sub>
+</p>
 
 "Benchmarking Adaptive Variational Quantum Eigensolvers,"  Daniel Claudino, Jerimiah Wright, Alexander J. McCaskey and Travis S. Humble, [*Front. Chem.* (2020)](https://doi.org/10.3389/fchem.2020.606863); [*arXiv*:2011.01279](https://arxiv.org/abs/2011.01279).
 
