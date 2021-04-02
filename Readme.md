@@ -67,10 +67,12 @@ https://docs.microsoft.com/en-us/azure/quantum/ (Quantum Development Kit Documen
 
 
 
+
+
 ##  Quantum simulations of excited state with active-space downfolded Hamiltonians
 <p align="center">
   <img width="400" src="https://github.com/npbauman/BES-QIS/blob/fa24a1e79352f4a8084548514c12154ae1e2207b/Figures/Excited_States_H2.png"> <br>
-<sub><sup> A typical distribution of energies for a strongly correlated system obtained from several simulations with the QPE algorithm. This particular spread of energies corresponds to H2.</sup></sub>
+<sub><sup> A typical distribution of energies for a strongly correlated system obtained from several simulations with the QPE algorithm. This particular spread of energies corresponds to H<sub>2</sub>.</sup></sub>
 </p>
 
 "Quantum simulations of excited state with active-space downfolded Hamiltonians," Nicholas P. Bauman, Guang Hao Low and Karol Kowalski, [*J. Chem. Phys.* **151**, 234114 (2019)](https://doi.org/10.1063/1.5128103); [*arXiv*:1909.06404](https://arxiv.org/abs/1909.06404).
@@ -87,10 +89,12 @@ https://docs.microsoft.com/en-us/azure/quantum/ (Quantum Development Kit Documen
 
 
 
+
+
 ## Resource-efficient VQE algorithms with downfolded Hamiltonians
 <p align="center">
   <img width="400" src="https://github.com/npbauman/BES-QIS/blob/cfa60174e5876ea633879b4145b293318583cb85/Figures/VQE-DUCC_Li2.png"> <br>
-<sub><sup> Ground state energy of Li2 with the cc-pvtz basis. The errors, ε, of the VQE-DUCC and the active-space CCSDTQ calculations are with respect to the 60-orbital CCSDTQ energies.</sup></sub>
+<sub><sup> Ground state energy of Li<sub>2</sub> with the cc-pvtz basis. The errors, ε, of the VQE-DUCC and the active-space CCSDTQ calculations are with respect to the 60-orbital CCSDTQ energies.</sup></sub>
 </p>
 
 "Resource-Efficient Chemistry on Quantum Computers with the Variational Quantum Eigensolver and the Double Unitary Coupled-Cluster Approach," Mekena Metcalf, Nicholas P. Bauman, Karol Kowalski and Wibe A. de Jong, [*J. Chem. Theory Comput.* **16**, 6165 (2020)](https://doi.org/10.1021/acs.jctc.0c00421); [*arXiv*:2004.07721](https://arxiv.org/abs/2004.07721).
@@ -99,7 +103,7 @@ https://docs.microsoft.com/en-us/azure/quantum/ (Quantum Development Kit Documen
 
 **Approach and Results:** To address this issue and enable more realistic simulations on NISQ computers, we employed the double unitary coupled-cluster method to effectively downfold correlation effects into the reduced-size orbital space, commonly referred to as the active space. Using downfolding and VQE techniques, we demonstrated that effective Hamiltonians could capture the effect of the whole orbital space in small-size active spaces, especially when natural orbitals are employed. 
 
-**Significance and Impact:** The DUCC/VQE framework was used to solve the ground-state energy of H2, Li2, and BeH2 on the cc-pVTZ basis using the reduced-size active spaces. The VQE formalism has also been extended to the generalized unitary CC (GUCC) ansatz and applied to benchmark systems/processes (N2, H2O, and C2H4) described by the downfolded Hamiltonians. The preliminary data indicate that simple downfolding procedures based on single commutator expansion and small active spaces can recover around 90% of correlation energy calculated when all orbitals are correlated.
+**Significance and Impact:** The DUCC/VQE framework was used to solve the ground-state energy of H<sub>2</sub>, Li<sub>2</sub>, and BeH<sub>2</sub> on the cc-pVTZ basis using the reduced-size active spaces. The VQE formalism has also been extended to the generalized unitary CC (GUCC) ansatz and applied to benchmark systems/processes (N<sub>2</sub>, H<sub>2</sub>O, and C<sub>2</sub>H<sub>4</sub>) described by the downfolded Hamiltonians. The preliminary data indicate that simple downfolding procedures based on single commutator expansion and small active spaces can recover around 90% of correlation energy calculated when all orbitals are correlated.
 
 https://nwchemgit.github.io/ (NWChem Documentation)  
 https://qiskit.org/ (Qiskit)
@@ -111,14 +115,14 @@ https://qiskit.org/ (Qiskit)
 ## Coupled Cluster Green’s function formulations based on the effective Hamiltonians
 <p align="center">
   <img width="400" src="https://github.com/npbauman/BES-QIS/blob/f1a9e3e87afdff033662f8c1f3d48a02be7940ee/Figures/DUCC-GFCCSD_N2.png"> <br>
-<sub><sup> Spectral functions of N2 in the valence energy regimes directly computed by the closed-shell GFCCSD and DUCC-GFCCSD methods with cc-pVDZ basis set.</sup></sub>
+<sub><sup> Spectral functions of N<sub>2</sub> in the valence energy regimes directly computed by the closed-shell GFCCSD and DUCC-GFCCSD methods with cc-pVDZ basis set.</sup></sub>
 </p>
 
 "Coupled Cluster Green's function formulations based on the effective Hamiltonians," Nicholas P. Bauman, Bo Peng and  Karol Kowalski, [*Mol. Phys.* **118** (2020)](https://doi.org/10.1080/00268976.2020.1725669); [*arXiv*:1910.00394](https://arxiv.org/abs/1910.00394).
   
 **Challenge:** The recently developed double unitary coupled cluster (DUCC) formalism for for integrating out high-energy wave-function components from low-energy ones in the effective (or downfolded) Hamiltonians was shown to be promising. While in its prime, the utility of the formalism still needed affirming by combining it with existing and powerful many-body methods.
 
-**Approach and Results:** The Green’s function coupled cluster (GFCC) approach remains an active area of development and was chosen to investigate the performance of the DUCC downfolding proceedure. This combined approach (DUCC-GFCC) was applied to H2O, N2, CO, and trans-1,3-butadiene and shown to provide a significant reduction of numerical effort and good agreement with the corresponding all-orbital GFCC methods in energy windows that are consistent with the choice of active space. Spectral functions were also shown to systematically improve with larger active spaces while maintaining a significant reduction in dimensionality, unlike standard truncated Hamiltonians where errors were sporadic. 
+**Approach and Results:** The Green’s function coupled cluster (GFCC) approach remains an active area of development and was chosen to investigate the performance of the DUCC downfolding proceedure. This combined approach (DUCC-GFCC) was applied to H<sub>2</sub>O, N<sub>2</sub>, CO, and trans-1,3-butadiene and shown to provide a significant reduction of numerical effort and good agreement with the corresponding all-orbital GFCC methods in energy windows that are consistent with the choice of active space. Spectral functions were also shown to systematically improve with larger active spaces while maintaining a significant reduction in dimensionality, unlike standard truncated Hamiltonians where errors were sporadic. 
 
 **Significance and Impact:** We demonstrated that the utilization of the effective Hamiltonian stemming from the DUCC downfolding procedure can be used to reproduce the main features of the standard GFCCSD spectral function while significantly reducing the cost of the GFCC calculations. A growing interest in quantum computing algorithms for correlated Green's function makes reduced-dimension DUCC-GFCC formulations a possible target for early quantum computing applications.
 
@@ -132,7 +136,7 @@ https://nwchemgit.github.io/ (NWChem Documentation)
 
 "A Filon-like integration strategy for calculating exact exchange in periodic boundary conditions: a plane-wave DFT implementation," Eric J. Bylaska, Kevin Waters, Eric D. Hermes, Judit Zádor and Kevin M Rosso, [*Mater. Theory* **4**, 3 (2020)](https://doi.org/10.1186/s41313-020-00019-9).
 
-**Abstract:** An efficient and accurate approach for calculating exact exchange and other two-electron integrals has been developed for periodic electronic structure methods. Traditional approaches used for integrating over the Brillouin zone in band structure calculations, e.g. trapezoidal or Monkhorst-Pack, are not accurate enough for two-electron integrals. This is because their integrands contain multiple singularities over the double integration of the Brillouin zone, which with simple integration methods lead to very inaccurate results. A common approach to this problem has been to replace the Coulomb interaction with a screened Coulomb interaction that removes singularities from the integrands in the two-electron integrals, albeit at the inelegance of having to introduce a screening factor which must precomputed or guessed. Instead of introducing screened Coulomb interactions in an ad hoc way, the method developed in this work derives an effective screened potential using a Filon-like integration approach that is based only on the lattice parameters. This approach overcomes the limitations of traditionally defined screened Coulomb interactions for calculating two-electron integrals, and makes chemistry many-body calculations tractable in periodic boundary conditions. This method has been applied to several systems for which conventional DFT methods do not work well, including the reaction pathways for the addition of H2 to phenol and Au20- nanoparticle, and the electron transfer of a charge trapped state in the Fe(II) containing mica, annite.
+**Abstract:** An efficient and accurate approach for calculating exact exchange and other two-electron integrals has been developed for periodic electronic structure methods. Traditional approaches used for integrating over the Brillouin zone in band structure calculations, e.g. trapezoidal or Monkhorst-Pack, are not accurate enough for two-electron integrals. This is because their integrands contain multiple singularities over the double integration of the Brillouin zone, which with simple integration methods lead to very inaccurate results. A common approach to this problem has been to replace the Coulomb interaction with a screened Coulomb interaction that removes singularities from the integrands in the two-electron integrals, albeit at the inelegance of having to introduce a screening factor which must precomputed or guessed. Instead of introducing screened Coulomb interactions in an ad hoc way, the method developed in this work derives an effective screened potential using a Filon-like integration approach that is based only on the lattice parameters. This approach overcomes the limitations of traditionally defined screened Coulomb interactions for calculating two-electron integrals, and makes chemistry many-body calculations tractable in periodic boundary conditions. This method has been applied to several systems for which conventional DFT methods do not work well, including the reaction pathways for the addition of H<sub>2</sub> to phenol and Au<sub>20</sub><sup>-</sup> nanoparticle, and the electron transfer of a charge trapped state in the Fe(II) containing mica, annite.
 
 
 <!---**Challenge:**--->
@@ -208,9 +212,9 @@ https://docs.microsoft.com/en-us/azure/quantum/ (Quantum Development Kit Documen
 
 "Quantum simulations employing connected moments expansion," Karol Kowalski and Bo Peng, [*J. Chem. Phys.* **153**, 201102 (2020)](https://doi.org/10.1063/5.0030688); [*arXiv*:2009.05709](https://arxiv.org/abs/2009.05709).
 
-**Challenge:** Further advancement of quantum computing is contingent on enabling models that avoid deep circuits (Fig.7) and the excessive use of CNOT gates and associated noise effects.
+**Challenge:** Further advancement of quantum computing is contingent on enabling models that avoid deep circuits and the excessive use of CNOT gates and associated noise effects.
 
-**Approach and Results:** We developed a quantum algorithm employing finite-order connected moment expansions (CMX) and affordable procedures for initial-state preparation to address this problem. We demonstrated the performance of our approach employing several quantum variants of CMX through the classical emulations of quantum circuits on the H2 molecule potential energy surface and the Anderson model with a broad range of correlation strength. A good agreement with exact solutions can be maintained even at the dissociation and strong correlation limits. An essential aspect of this research was integrating a new class of correlated energy functionals with low-depth VQE expansions to provide a source for the trail functions. We demonstrated that the accuracy of this combined approach is superior to the standard VQE methods. Due to the natural resilience of the quantum CMX algorithms to the effect of noise, they are ideally suited to be a target for early quantum simulations on NISQ devices.
+**Approach and Results:** We developed a quantum algorithm employing finite-order connected moment expansions (CMX) and affordable procedures for initial-state preparation to address this problem. We demonstrated the performance of our approach employing several quantum variants of CMX through the classical emulations of quantum circuits on the H<sub>2</sub> molecule potential energy surface and the Anderson model with a broad range of correlation strength. A good agreement with exact solutions can be maintained even at the dissociation and strong correlation limits. An essential aspect of this research was integrating a new class of correlated energy functionals with low-depth VQE expansions to provide a source for the trail functions. We demonstrated that the accuracy of this combined approach is superior to the standard VQE methods. Due to the natural resilience of the quantum CMX algorithms to the effect of noise, they are ideally suited to be a target for early quantum simulations on NISQ devices.
 
 **Significance and Impact:** This approach accurately reconstructs a molecular system's total energy using fewer cycles of calculation and reduced numbers of qubits in inherently error-prone quantum circuits.
 
@@ -229,7 +233,7 @@ https://docs.microsoft.com/en-us/azure/quantum/ (Quantum Development Kit Documen
   
 **Challenge:** The applicability of quantum algorithms is either limited by the number of variational variables and the numbers of necessary measurements or by the circuit depths. Their accuracy is reliant on underlying approximations. Understanding how these approximations perform, especially when coupled with techniques for reducing the system's dimensionality, is crucial for applications on quantum computers.
 
-**Approach and Results:** We investigated the utilization of variational quantum solver (VQE) and the recently introduced generalized unitary coupled cluster (GUCC) formalism for the diagonalization of downfolded/effective Hamiltonians in active spaces. We also considered various solvers to identify solutions of the GUCC equations using N2, H2O, and C2H4 as benchmark systems to illustrate the combined framework's performance. Our numerical data suggest that UGCCSD can yield energies and wave functions close to the FCI solution, certainly superior to the UCCSD Ansatz. We also showed that the initial guesses in the form of matrix product states, which can be efficiently prepared on a quantum register, can improve the VQE-GUCC method's accuracy for multireference systems.
+**Approach and Results:** We investigated the utilization of variational quantum solver (VQE) and the recently introduced generalized unitary coupled cluster (GUCC) formalism for the diagonalization of downfolded/effective Hamiltonians in active spaces. We also considered various solvers to identify solutions of the GUCC equations using N<sub>2</sub>, H<sub>2</sub>O, and C<sub>2</sub>H<sub>4</sub> as benchmark systems to illustrate the combined framework's performance. Our numerical data suggest that UGCCSD can yield energies and wave functions close to the FCI solution, certainly superior to the UCCSD Ansatz. We also showed that the initial guesses in the form of matrix product states, which can be efficiently prepared on a quantum register, can improve the VQE-GUCC method's accuracy for multireference systems.
 
 **Significance and Impact:** This work promotes the GUCC methodology as a reliable formalism for quantum computing applications. We observed that initial guesses are an influential component of quantum calculations and warrant further investigation. 
 
@@ -264,7 +268,7 @@ https://docs.microsoft.com/en-us/azure/quantum/ (Quantum Development Kit Documen
 
 **Challenge:** The long-term success of quantum computing will depend on the efficiency with which the algorithms solve important problems, and this work addresses the question of what makes a good algorithm for electronic structure calculations from quantum chemistry. While the results are limited to the ground-states of diatomic molecules solved using noiseless simulation, they provide ground truth for how well such variational methods may perform. In addition, this work supports the broader goal of establishing a diverse library of quantum algorithms.
 
-**Approach and Results:** The accuracy of quantum computing methods to calculate the electronic ground states and potential energy curves for selected diatomic molecules, namely H2, NaH, and KH has been investigated. Using numerical simulation, it was found that multiple methods provide good estimates of the energy and ground state, but only some methods were shown to be robust to the underlying optimization methods. An important finding from this work is that current, gradient-based optimizations is more economical and delivers superior performance than analogous simulations carried out with gradient-free optimizers. The results also identify small errors in the prepared state fidelity which show an increasing trend with molecular size.
+**Approach and Results:** The accuracy of quantum computing methods to calculate the electronic ground states and potential energy curves for selected diatomic molecules, namely H<sub>2</sub>, NaH, and KH has been investigated. Using numerical simulation, it was found that multiple methods provide good estimates of the energy and ground state, but only some methods were shown to be robust to the underlying optimization methods. An important finding from this work is that current, gradient-based optimizations is more economical and delivers superior performance than analogous simulations carried out with gradient-free optimizers. The results also identify small errors in the prepared state fidelity which show an increasing trend with molecular size.
 
 **Significance and Impact:** The long-term success of quantum computing will depend on the efficiency with which the algorithms solve important problems, and this work addresses the question of what makes a good algorithm for electronic structure calculations from quantum chemistry. While the results are limited to the ground-states of diatomic molecules solved using noiseless simulation, they provide ground truth for how well such variational methods may perform. In addition, this work supports the broader goal of establishing a diverse library of quantum algorithms.
 
@@ -366,3 +370,23 @@ https://docs.microsoft.com/en-us/azure/quantum/ (Quantum Development Kit Documen
 
 https://nwchemgit.github.io/ (NWChem Documentation)  
 https://xacc.readthedocs.io/en/latest/ (XACC Documentation)
+
+
+
+
+## Improving the accuracy and efficiency of quantum connected moments expansions
+
+"Improving the accuracy and efficiency of quantum connected moments expansions," Daniel Claudino, Bo Peng, Nicholas P. Bauman, Karol Kowalski and Travis S. Humble, [*arXiv*:2103.09124](https://arxiv.org/abs/2103.09124)..
+
+**Abstract:** The still-maturing noisy intermediate-scale quantum (NISQ) technology faces strict limitations on the algorithms that can be implemented efficiently. In quantum chemistry, the variational quantum eigensolver (VQE) algorithm has become ubiquitous, using the functional form of the ansatz as a degree of freedom, whose parameters are found variationally in a feedback loop between the quantum processor and its conventional counterpart. Alternatively, a promising new avenue has been unraveled by the quantum variants of techniques grounded on expansions of the moments of the Hamiltonian, among which two stand out: the connected moments expansion (CMX) [Phys. Rev. Lett. 58, 53 (1987)] and the Peeters-Devreese-Soldatov (PDS) functional [J. Phys. A 17, 625 (1984); Int. J. Mod. Phys. B 9, 2899], the latter based on the standard moments **<H<sup>k</sup>>**. Contrasting with VQE-based methods and provided the quantum circuit prepares a state with non-vanishing overlap with the true ground state, CMX often converges to the ground state energy, while PDS is guaranteed to converge by virtue of being variational. However, for a finite CMX/PDS order, the circuit may significantly impact the energy accuracy. Here we use the ADAPT-VQE algorithm to test shallow circuit construction strategies that are not expected to impede their implementation in the present quantum hardware while granting sizable accuracy improvement in the computed ground state energies. We also show that we can take advantage of the fact that the terms in the connected moments are highly recurring in different powers, incurring a sizable reduction in the number of necessary measurements. By coupling this measurement caching with a threshold that determines whether a given term is to be measured based on its associated scalar coefficient, we observe a further reduction in the number of circuit implementations while allowing for tunable accuracy. 
+
+
+<!---**Challenge:**--->
+
+<!---**Approach and Results:**--->
+
+<!---**Significance and Impact:**--->
+
+https://nwchemgit.github.io/ (NWChem Documentation)  
+https://xacc.readthedocs.io/en/latest/ (XACC Documentation)
+
