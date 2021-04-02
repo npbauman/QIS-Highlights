@@ -193,7 +193,7 @@ https://docs.microsoft.com/en-us/azure/quantum/ (Quantum Development Kit Documen
 
 "Quantum Algorithms for Simulating the Lattice Schwinger Model," Alexander F. Shaw, Pavel Lougovski, Jesse R. Stryker and Nathan Wiebe, [*Quantum* **4**, 306 (2020)](	https://doi.org/10.22331/q-2020-08-10-306); [*arXiv*:2002.11146](https://arxiv.org/abs/2002.11146).
 
-**Abstract:** The Schwinger model (quantum electrodynamics in 1+1 dimensions) is a testbed for the study of quantum gauge field theories. We give scalable, explicit digital quantum algorithms to simulate the lattice Schwinger model in both NISQ and fault-tolerant settings. In particular, we perform a tight analysis of low-order Trotter formula simulations of the Schwinger model, using recently derived commutator bounds, and give upper bounds on the resources needed for simulations in both scenarios. In lattice units, we find a Schwinger model on **N/2** physical sites with coupling constant **x<sup>−1/2</sup>** and electric field cutoff **x<sup>−1/2</sup>Λ** can be simulated on a quantum computer for time **2xT** using a number of **T**-gates or CNOTs in **&Otilde(N<sup>3/2</sup>T<sup>3/2</sup>Λ√x)** for fixed operator error. This scaling with the truncation **Λ** is better than that expected from algorithms such as qubitization or QDRIFT. Furthermore, we give scalable measurement schemes and algorithms to estimate observables which we cost in both the NISQ and fault-tolerant settings by assuming a simple target observable–the mean pair density. Finally, we bound the root-mean-square error in estimating this observable via simulation as a function of the diamond distance between the ideal and actual CNOT channels. This work provides a rigorous analysis of simulating the Schwinger model, while also providing benchmarks against which subsequent simulation algorithms can be tested.
+**Abstract:** The Schwinger model (quantum electrodynamics in 1+1 dimensions) is a testbed for the study of quantum gauge field theories. We give scalable, explicit digital quantum algorithms to simulate the lattice Schwinger model in both NISQ and fault-tolerant settings. In particular, we perform a tight analysis of low-order Trotter formula simulations of the Schwinger model, using recently derived commutator bounds, and give upper bounds on the resources needed for simulations in both scenarios. In lattice units, we find a Schwinger model on **N/2** physical sites with coupling constant **x<sup>−1/2</sup>** and electric field cutoff **x<sup>−1/2</sup>Λ** can be simulated on a quantum computer for time **2xT** using a number of **T**-gates or CNOTs in **O(N<sup>3/2</sup>T<sup>3/2</sup>Λ√x)** for fixed operator error. This scaling with the truncation **Λ** is better than that expected from algorithms such as qubitization or QDRIFT. Furthermore, we give scalable measurement schemes and algorithms to estimate observables which we cost in both the NISQ and fault-tolerant settings by assuming a simple target observable–the mean pair density. Finally, we bound the root-mean-square error in estimating this observable via simulation as a function of the diamond distance between the ideal and actual CNOT channels. This work provides a rigorous analysis of simulating the Schwinger model, while also providing benchmarks against which subsequent simulation algorithms can be tested.
 
 <!---**Challenge:**--->
 
@@ -276,12 +276,14 @@ https://docs.microsoft.com/en-us/azure/quantum/ (Quantum Development Kit Documen
 ## Even more efficient quantum computations of chemistry through tensor hypercontractions
 
 "Even more efficient quantum computations of chemistry through tensor hypercontractions," Joonho Lee, Dominic W. Berry, Craig Gidney, William J. Huggins, Jarrod R. McClean, Nathan Wiebe and Ryan Babbush, [*arXiv*:2011.03494](https://arxiv.org/abs/2011.03494).
-  
-**Challenge:**
 
-**Approach and Results:**
+**Abstract:** We describe quantum circuits with only **O(N)** Toffoli complexity that block encode the spectra of quantum chemistry Hamiltonians in a basis of **N** arbitrary (e.g., molecular) orbitals. With **O(λ/ϵ)** repetitions of these circuits one can use phase estimation to sample in the molecular eigenbasis, where **λ** is the 1-norm of Hamiltonian coefficients and **ϵ** is the target precision. This is the lowest complexity that has been shown for quantum computations of chemistry within an arbitrary basis. Furthermore, up to logarithmic factors, this matches the scaling of the most efficient prior block encodings that can only work with orthogonal basis functions diagonalizing the Coloumb operator (e.g., the plane wave dual basis). Our key insight is to factorize the Hamiltonian using a method known as tensor hypercontraction (THC) and then to transform the Coulomb operator into an isospectral diagonal form with a non-orthogonal basis defined by the THC factors. We then use qubitization to simulate the non-orthogonal THC Hamiltonian, in a fashion that avoids most complications of the non-orthogonal basis. We also reanalyze and reduce the cost of several of the best prior algorithms for these simulations in order to facilitate a clear comparison to the present work. In addition to having lower asymptotic scaling spacetime volume, compilation of our algorithm for challenging finite-sized molecules such as FeMoCo reveals that our method requires the least fault-tolerant resources of any known approach. By laying out and optimizing the surface code resources required of our approach we show that FeMoCo can be simulated using about four million physical qubits and under four days of runtime, assuming 1 μs cycle times and physical gate error rates no worse than 0.1%. 
 
-**Significance and Impact:**
+<!---**Challenge:**--->
+
+<!---**Approach and Results:**--->
+
+<!---**Significance and Impact:**--->
 
 
 
@@ -291,12 +293,14 @@ https://docs.microsoft.com/en-us/azure/quantum/ (Quantum Development Kit Documen
 ## Dynamical Self-energy Mapping (DSEM) for quantum computing
 
 "Dynamical Self-energy Mapping (DSEM) for quantum computing," Diksha Dhawan, Mekena Metcalf and Dominika Zgid, [*arXiv*:2010.05441](https://arxiv.org/abs/2010.05441).
-  
-**Challenge:**
 
-**Approach and Results:**
+**Abstract:** For noisy intermediate-scale quantum (NISQ) devices only a moderate number of qubits with a limited coherence is available thus enabling only shallow circuits and a few time evolution steps in the currently performed quantum computations. Here, we present how to bypass this challenge in practical molecular chemistry simulations on NISQ devices by employing a classical-quantum hybrid algorithm allowing us to produce a sparse Hamiltonian which contains only **O(n<sup>2</sup>)** terms in a Gaussian orbital basis when compared to the **O(n<sup>4</sup>)** terms of a standard Hamiltonian, where **n** is the number of orbitals in the system. Classical part of this hybrid entails parameterization of the sparse, fictitious Hamiltonian in such a way that it recovers the self-energy of the original molecular system. Quantum machine then uses this fictitious Hamiltonian to calculate the self-energy of the system. We show that the developed hybrid algorithm yields very good total energies for small molecular test cases while reducing the depth of the quantum circuit by at least an order of magnitude when compared with simulations involving a full Hamiltonian. 
 
-**Significance and Impact:**
+<!---**Challenge:**--->
+
+<!---**Approach and Results:**--->
+
+<!---**Significance and Impact:**--->
 
 
 
@@ -305,12 +309,14 @@ https://docs.microsoft.com/en-us/azure/quantum/ (Quantum Development Kit Documen
 ## Simulating Quantum Materials with Digital Quantum Computers
 
 "Simulating Quantum Materials with Digital Quantum Computers," Lindsay Bassman, Miroslav Urbanek, Mekena Metcalf, Jonathan Carter, Alexander F. Kemper and Wibe de Jong, [*arXiv*:2101.08836](https://arxiv.org/abs/2101.08836).
-  
-**Challenge:**
 
-**Approach and Results:**
+**Abstract:** Quantum materials exhibit a wide array of exotic phenomena and practically useful properties. A better understanding of these materials can provide deeper insights into fundamental physics in the quantum realm as well as advance technology for entertainment, healthcare, and sustainability. The emergence of digital quantum computers (DQCs), which can efficiently perform quantum simulations that are otherwise intractable on classical computers, provides a promising path forward for testing and analyzing the remarkable, and often counter-intuitive, behavior of quantum materials. Equipped with these new tools, scientists from diverse domains are racing towards achieving physical quantum advantage (i.e., using a quantum computer to learn new physics with a computation that cannot feasibly be run on any classical computer). The aim of this review, therefore, is to provide a summary of progress made towards this goal that is accessible to scientists across the physical sciences. We will first review the available technology and algorithms, and detail the myriad ways to represent materials on quantum computers. Next, we will showcase the simulations that have been successfully performed on currently available DQCs, emphasizing the variety of properties, both static and dynamic, that can be studied with this nascent technology. Finally, we work through two examples of how to map a materials problem onto a DQC, with full code included in the Supplementary Material. It is our hope that this review can serve as an organized overview of progress in the field for domain experts and an accessible introduction to scientists in related fields interested in beginning to perform their own simulations of quantum materials on DQCs. 
 
-**Significance and Impact:**
+<!---**Challenge:**--->
+
+<!---**Approach and Results:**--->
+
+<!---**Significance and Impact:**--->
 
 
 
@@ -348,12 +354,15 @@ https://docs.microsoft.com/en-us/azure/quantum/ (Quantum Development Kit Documen
 ## Effect of state preparation on the quantum connected moments expansion
 
 "Effect of state preparation on the quantum connected moments expansion," Daniel Claudino, Bo Peng, Nicholas P. Bauman, Karol Kowalski and Travis S. Humble, [*Quantum Sci. Technol.* (submitted)].
-  
-**Challenge:**
 
-**Approach and Results:**
+**Abstract:** Further advancement of quantum computing (QC) is contingent on enabling many-body models that avoid deep circuits and excessive use of CNOT gates. To this end, we develop a QC approach employing finite-order connected moment expansions (CMX) and affordable procedures for initial state preparation. We demonstrate the performance of our approach employing several quantum variants of CMX through the classical emulations on the H2 molecule potential energy surface and the Anderson model with a broad range of correlation strength. The results show that our approach is robust and flexible. Good agreement with exact solutions can be maintained even at the dissociation and strong correlation limits.
 
-**Significance and Impact:**
+
+<!---**Challenge:**--->
+
+<!---**Approach and Results:**--->
+
+<!---**Significance and Impact:**--->
 
 https://nwchemgit.github.io/ (NWChem Documentation)  
 https://xacc.readthedocs.io/en/latest/ (XACC Documentation)
