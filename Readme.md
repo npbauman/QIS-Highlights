@@ -85,6 +85,8 @@ https://nwchemgit.github.io/ (NWChem Documentation)
 https://docs.microsoft.com/en-us/azure/quantum/ (Quantum Development Kit Documentation)
 
 
+
+
 ## Resource-efficient VQE algorithms with downfolded Hamiltonians
 <p align="center">
   <img width="400" src="https://github.com/npbauman/BES-QIS/blob/cfa60174e5876ea633879b4145b293318583cb85/Figures/VQE-DUCC_Li2.png"> <br>
@@ -98,6 +100,10 @@ https://docs.microsoft.com/en-us/azure/quantum/ (Quantum Development Kit Documen
 **Approach and Results:** To address this issue and enable more realistic simulations on NISQ computers, we employed the double unitary coupled-cluster method to effectively downfold correlation effects into the reduced-size orbital space, commonly referred to as the active space. Using downfolding and VQE techniques, we demonstrated that effective Hamiltonians could capture the effect of the whole orbital space in small-size active spaces, especially when natural orbitals are employed. 
 
 **Significance and Impact:** The DUCC/VQE framework was used to solve the ground-state energy of H2, Li2, and BeH2 on the cc-pVTZ basis using the reduced-size active spaces. The VQE formalism has also been extended to the generalized unitary CC (GUCC) ansatz and applied to benchmark systems/processes (N2, H2O, and C2H4) described by the downfolded Hamiltonians. The preliminary data indicate that simple downfolding procedures based on single commutator expansion and small active spaces can recover around 90% of correlation energy calculated when all orbitals are correlated.
+
+https://nwchemgit.github.io/ (NWChem Documentation)  
+https://qiskit.org/ (Qiskit)
+
 
 
 
@@ -120,15 +126,21 @@ https://nwchemgit.github.io/ (NWChem Documentation)
 
 
 
+
+
 ## A Filon-like integration strategy for calculating exact exchange in periodic boundary conditions
 
 "A Filon-like integration strategy for calculating exact exchange in periodic boundary conditions: a plane-wave DFT implementation," Eric J. Bylaska, Kevin Waters, Eric D. Hermes, Judit Zádor and Kevin M Rosso, [*Mater. Theory* **4**, 3 (2020)](https://doi.org/10.1186/s41313-020-00019-9).
-  
+
+**Abstract:** An efficient and accurate approach for calculating exact exchange and other two-electron integrals has been developed for periodic electronic structure methods. Traditional approaches used for integrating over the Brillouin zone in band structure calculations, e.g. trapezoidal or Monkhorst-Pack, are not accurate enough for two-electron integrals. This is because their integrands contain multiple singularities over the double integration of the Brillouin zone, which with simple integration methods lead to very inaccurate results. A common approach to this problem has been to replace the Coulomb interaction with a screened Coulomb interaction that removes singularities from the integrands in the two-electron integrals, albeit at the inelegance of having to introduce a screening factor which must precomputed or guessed. Instead of introducing screened Coulomb interactions in an ad hoc way, the method developed in this work derives an effective screened potential using a Filon-like integration approach that is based only on the lattice parameters. This approach overcomes the limitations of traditionally defined screened Coulomb interactions for calculating two-electron integrals, and makes chemistry many-body calculations tractable in periodic boundary conditions. This method has been applied to several systems for which conventional DFT methods do not work well, including the reaction pathways for the addition of H2 to phenol and Au20- nanoparticle, and the electron transfer of a charge trapped state in the Fe(II) containing mica, annite.
+
+<!---
 **Challenge:**
-
+<!---
 **Approach and Results:**
-
+<!---
 **Significance and Impact:**
+
 
 
 
