@@ -179,7 +179,7 @@ https://nwchemgit.github.io/ (NWChem Documentation)
 
 ## Quantum computing for high-energy states - QPE simulations of core-level states
 <p align="center">
-  <img width="400" src="https://github.com/npbauman/BES-QIS/blob/812cd57d73f44015f805fcf310805d62db7cba23/Figures/Core-Level.png"> <br>
+  <img width="600" src="https://github.com/npbauman/BES-QIS/blob/812cd57d73f44015f805fcf310805d62db7cba23/Figures/Core-Level.png"> <br>
 <sub><sup> QPE simulations of doubly excited core-level states of H<sub>2</sub>O in cc-pVDZ basis set using initial guess representing singlet combination of Slater determinants corresponding to simultaneous excitation of electrons from core and valence levels to virtual valence level.</sup></sub>
 </p>
 
