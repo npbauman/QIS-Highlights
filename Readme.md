@@ -134,12 +134,12 @@ https://nwchemgit.github.io/ (NWChem Documentation)
 
 **Abstract:** An efficient and accurate approach for calculating exact exchange and other two-electron integrals has been developed for periodic electronic structure methods. Traditional approaches used for integrating over the Brillouin zone in band structure calculations, e.g. trapezoidal or Monkhorst-Pack, are not accurate enough for two-electron integrals. This is because their integrands contain multiple singularities over the double integration of the Brillouin zone, which with simple integration methods lead to very inaccurate results. A common approach to this problem has been to replace the Coulomb interaction with a screened Coulomb interaction that removes singularities from the integrands in the two-electron integrals, albeit at the inelegance of having to introduce a screening factor which must precomputed or guessed. Instead of introducing screened Coulomb interactions in an ad hoc way, the method developed in this work derives an effective screened potential using a Filon-like integration approach that is based only on the lattice parameters. This approach overcomes the limitations of traditionally defined screened Coulomb interactions for calculating two-electron integrals, and makes chemistry many-body calculations tractable in periodic boundary conditions. This method has been applied to several systems for which conventional DFT methods do not work well, including the reaction pathways for the addition of H2 to phenol and Au20- nanoparticle, and the electron transfer of a charge trapped state in the Fe(II) containing mica, annite.
 
-<!---
-**Challenge:**
-<!---
-**Approach and Results:**
-<!---
-**Significance and Impact:**
+
+<!---**Challenge:**--->
+
+<!---**Approach and Results:**--->
+
+<!---**Significance and Impact:**--->
 
 
 
