@@ -16,10 +16,10 @@ This repository is dedicated to highlighting developments within the Quantum Inf
 - [Reduced-size plane-wave based representation of many-body methods for quantum computing](#Reduced-size-plane-wave-based-representation-of-many-body-methods-for-quantum-computing)
 - [Benchmarking adaptive variational quantum eigensolvers](#Benchmarking-adaptive-variational-quantum-eigensolvers)
 - [Even more efficient quantum computations of chemistry through tensor hypercontractions](#Even-more-efficient-quantum-computations-of-chemistry-through-tensor-hypercontractions)
-- [Dynamical Self-energy Mapping (DSEM) for quantum computing](#dynamical-self-energy-mapping-dsem-for-quantum-computing)
-- [Simulating Quantum Materials with Digital Quantum Computers](#Simulating-Quantum-Materials-with-Digital-Quantum-Computers)
+- [Dynamical self-energy mapping for quantum computing](#dynamical-self-energy-mapping-for-quantum-computing)
+- [Simulating quantum materials with digital quantum computers](#Simulating-quantum-materials-with-digital-quantum-computers)
 - [Variational quantum solver employing the PDS energy functional](#Variational-quantum-solver-employing-the-PDS-energy-functional)
-- [Dimensionality reduction of many-body problem using coupled-cluster sub-system flow equations: classical and quantum computing perspective](#dimensionality-reduction-of-many-body-problem-using-coupled-cluster-sub-system-flow-equations-classical-and-quantum-computing-perspective)
+- [Dimensionality reduction of many-body problem using coupled-cluster sub-system flow equations](#dimensionality-reduction-of-many-body-problem-using-coupled-cluster-sub-system-flow-equations)
 - [Effect of state preparation on the quantum connected moments expansion](#Effect-of-state-preparation-on-the-quantum-connected-moments-expansion)
 - [Improving the accuracy and efficiency of quantum connected moments expansions](#improving-the-accuracy-and-efficiency-of-quantum-connected-moments-expansions)
 
@@ -306,7 +306,7 @@ https://docs.microsoft.com/en-us/azure/quantum/ (Quantum Development Kit Documen
 
 
 
-## Dynamical Self-energy Mapping (DSEM) for quantum computing
+## Dynamical self-energy mapping for quantum computing
 
 "Dynamical Self-energy Mapping (DSEM) for quantum computing," Diksha Dhawan, Mekena Metcalf and Dominika Zgid, [*arXiv*:2010.05441](https://arxiv.org/abs/2010.05441).
 
@@ -322,7 +322,7 @@ https://docs.microsoft.com/en-us/azure/quantum/ (Quantum Development Kit Documen
 
 
 
-## Simulating Quantum Materials with Digital Quantum Computers
+## Simulating quantum materials with digital quantum computers
 
 "Simulating Quantum Materials with Digital Quantum Computers," Lindsay Bassman, Miroslav Urbanek, Mekena Metcalf, Jonathan Carter, Alexander F. Kemper and Wibe de Jong, [*arXiv*:2101.08836](https://arxiv.org/abs/2101.08836).
 
@@ -352,8 +352,7 @@ https://docs.microsoft.com/en-us/azure/quantum/ (Quantum Development Kit Documen
 
 
 
-## Dimensionality reduction of many-body problem using coupled-cluster sub-system flow equations: classical and quantum computing perspective
-
+## Dimensionality reduction of many-body problem using coupled-cluster sub-system flow equations
 "Dimensionality reduction of many-body problem using coupled-cluster sub-system flow equations: classical and quantum computing perspective," Karol Kowalski, [*arXiv*:2102.05783](https://arxiv.org/abs/2102.05783).
   
 **Challenge:** Efficient probing of the large sub-spaces by quantum algorithms emerges as a critical challenge for accurate quantum simulations of chemical systems.
