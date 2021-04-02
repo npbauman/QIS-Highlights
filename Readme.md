@@ -10,7 +10,7 @@ This repository is dedicated to highlighting developments within the Quantum Inf
 - [Sub-system quantum dynamics using coupled cluster downfolding techniques](#Sub-system-quantum-dynamics-using-coupled-cluster-downfolding-techniques)
 - [Exploiting chemistry and molecular systems for quantum information science](#Exploiting-chemistry-and-molecular-systems-for-quantum-information-science)
 - [Quantum computing for high-energy states - QPE simulations of core-level states](#Quantum-computing-for-high-energy-states---QPE-simulations-of-core-level-states)
-- [Quantum Algorithms for Simulating the Lattice Schwinger Model](#Quantum-Algorithms-for-Simulating-the-Lattice-Schwinger-Model)
+- [Quantum algorithms for simulating the lattice Schwinger Model](#Quantum-Algorithms-for-Simulating-the-Lattice-Schwinger-Model)
 - [Quantum algorithms for connected moments expansion](#Quantum-algorithms-for-connected-moments-expansion)
 - [Variational Quantum Eigensolver for Approximate Diagonalization of Downfolded Hamiltonians using Generalized Unitary Coupled Cluster Ansatz](#Variational-Quantum-Eigensolver-for-Approximate-Diagonalization-of-Downfolded-Hamiltonians-using-Generalized-Unitary-Coupled-Cluster-Ansatz)
 - [Reduced-size plane-wave based representation of many-body methods for quantum computing](#Reduced-size-plane-wave-based-representation-of-many-body-methods-for-quantum-computing)
@@ -197,7 +197,7 @@ https://docs.microsoft.com/en-us/azure/quantum/ (Quantum Development Kit Documen
 
 
 
-## Quantum Algorithms for Simulating the Lattice Schwinger Model
+## Quantum algorithms for simulating the lattice Schwinger Model
 
 "Quantum Algorithms for Simulating the Lattice Schwinger Model," Alexander F. Shaw, Pavel Lougovski, Jesse R. Stryker and Nathan Wiebe, [*Quantum* **4**, 306 (2020)](	https://doi.org/10.22331/q-2020-08-10-306); [*arXiv*:2002.11146](https://arxiv.org/abs/2002.11146).
 
