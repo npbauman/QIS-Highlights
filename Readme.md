@@ -145,6 +145,7 @@ https://nwchemgit.github.io/ (NWChem Documentation)
 
 
 
+
 ## Sub-system quantum dynamics using coupled cluster downfolding techniques
 
 "Sub-system quantum dynamics using coupled cluster downfolding techniques," Karol Kowalski and Nicholas P. Bauman, [*J. Chem. Phys.* **152**, 244127 (2020)]( https://doi.org/10.1063/5.0008436); [*arXiv*:2003.09566](https://arxiv.org/abs/2003.09566).
@@ -154,6 +155,7 @@ https://nwchemgit.github.io/ (NWChem Documentation)
 **Approach and Results:** We presented an extension of the sub-system embedding sub-algebra coupled cluster (SESCC) formalism and the double unitary coupled cluster (DUCC) Ansatz to the time domain. Prior to this work, development of the DUCC formalism was predicated on assuming the exactness of the double unitary CC ansatz. We were able to complement the time domain discussion by showing that the exact wave function can be represented by the double unitary exponential ansatz with general-type anti-Hermitian many-body cluster operators representing internal and external excitations. This result corresponds to the general property of the exact wave function proven at the level of SESCC formalism.
 
 **Significance and Impact:** The DUCC formalism provides a rigorous many-body characterization of the time-dependent action functional to describe the dynamics of the entire system in time modes captured by the corresponding active space. This approach and corresponding approximations can not only reduce the cost of time-domain CC simulations for larger molecular applications. However, they can also be employed in the imaginary time evolution, which has recently been intensively studied in the context of quantum computing.
+
 
 
 
@@ -181,6 +183,8 @@ https://nwchemgit.github.io/ (NWChem Documentation)
 
 **Significance and Impact:** The PNNL-Microsoft team has demonstrated that extension of the QPE algorithm to high-energy core-level states of various spin, spatial symmetries, and complexity is possible. This is the first demonstration of quantum algorithms' potential for identifying shake-up/satellite states and their future role in supporting various x-ray spectroscopies.
 
+https://nwchemgit.github.io/ (NWChem Documentation)  
+https://docs.microsoft.com/en-us/azure/quantum/ (Quantum Development Kit Documentation)  
 
 
 
@@ -188,12 +192,14 @@ https://nwchemgit.github.io/ (NWChem Documentation)
 ## Quantum Algorithms for Simulating the Lattice Schwinger Model
 
 "Quantum Algorithms for Simulating the Lattice Schwinger Model," Alexander F. Shaw, Pavel Lougovski, Jesse R. Stryker and Nathan Wiebe, [*Quantum* **4**, 306 (2020)](	https://doi.org/10.22331/q-2020-08-10-306); [*arXiv*:2002.11146](https://arxiv.org/abs/2002.11146).
-  
-**Challenge:**
 
-**Approach and Results:**
+**Abstract:** The Schwinger model (quantum electrodynamics in 1+1 dimensions) is a testbed for the study of quantum gauge field theories. We give scalable, explicit digital quantum algorithms to simulate the lattice Schwinger model in both NISQ and fault-tolerant settings. In particular, we perform a tight analysis of low-order Trotter formula simulations of the Schwinger model, using recently derived commutator bounds, and give upper bounds on the resources needed for simulations in both scenarios. In lattice units, we find a Schwinger model on N/2 physical sites with coupling constant **x<sup>−1/2</sup>** and electric field cutoff **x<sup>−1/2</sup>Λ** can be simulated on a quantum computer for time **2xT** using a number of T-gates or CNOTs in ˜O(N<sup>3/2</sup>T<sup>3/2</sup>√xΛ) for fixed operator error. This scaling with the truncation Λ is better than that expected from algorithms such as qubitization or QDRIFT. Furthermore, we give scalable measurement schemes and algorithms to estimate observables which we cost in both the NISQ and fault-tolerant settings by assuming a simple target observable–the mean pair density. Finally, we bound the root-mean-square error in estimating this observable via simulation as a function of the diamond distance between the ideal and actual CNOT channels. This work provides a rigorous analysis of simulating the Schwinger model, while also providing benchmarks against which subsequent simulation algorithms can be tested.
 
-**Significance and Impact:**
+<!---**Challenge:**--->
+
+<!---**Approach and Results:**--->
+
+<!---**Significance and Impact:**--->
 
 
 
@@ -207,6 +213,9 @@ https://nwchemgit.github.io/ (NWChem Documentation)
 **Approach and Results:** We developed a quantum algorithm employing finite-order connected moment expansions (CMX) and affordable procedures for initial-state preparation to address this problem. We demonstrated the performance of our approach employing several quantum variants of CMX through the classical emulations of quantum circuits on the H2 molecule potential energy surface and the Anderson model with a broad range of correlation strength. A good agreement with exact solutions can be maintained even at the dissociation and strong correlation limits. An essential aspect of this research was integrating a new class of correlated energy functionals with low-depth VQE expansions to provide a source for the trail functions. We demonstrated that the accuracy of this combined approach is superior to the standard VQE methods. Due to the natural resilience of the quantum CMX algorithms to the effect of noise, they are ideally suited to be a target for early quantum simulations on NISQ devices.
 
 **Significance and Impact:** This approach accurately reconstructs a molecular system's total energy using fewer cycles of calculation and reduced numbers of qubits in inherently error-prone quantum circuits.
+
+
+
 
 
 
@@ -224,6 +233,8 @@ https://nwchemgit.github.io/ (NWChem Documentation)
 
 **Significance and Impact:** This work promotes the GUCC methodology as a reliable formalism for quantum computing applications. We observed that initial guesses are an influential component of quantum calculations and warrant further investigation. 
 
+https://nwchemgit.github.io/ (NWChem Documentation)  
+
 
 
 
@@ -238,6 +249,13 @@ https://nwchemgit.github.io/ (NWChem Documentation)
 
 **Significance and Impact:** Using these derived basis sets for quantum computing calculations targeting full CI (FCI) quality-results opens up the door to many-body calculations for pseudopotential plane-wave basis set methods. In conjunction with downfolding methods, the COVOs provide yet another mechanism for dimensionality reduction and maintaining the desired level of accuracy in quantum simulations for chemical processes.
 
+https://nwchemgit.github.io/ (NWChem Documentation)  
+https://arrows.emsl.pnnl.gov/api/qsharp_chem (EMSL Arrows Quantum Editor)  
+https://nwchemgit.github.io/EMSL_Arrows.html (EMSL Arrows Documentation)  
+https://docs.microsoft.com/en-us/azure/quantum/ (Quantum Development Kit Documentation)  
+
+
+
 
 
 ## Benchmarking adaptive variational quantum eigensolvers
@@ -249,6 +267,7 @@ https://nwchemgit.github.io/ (NWChem Documentation)
 **Approach and Results:** The accuracy of quantum computing methods to calculate the electronic ground states and potential energy curves for selected diatomic molecules, namely H2, NaH, and KH has been investigated. Using numerical simulation, it was found that multiple methods provide good estimates of the energy and ground state, but only some methods were shown to be robust to the underlying optimization methods. An important finding from this work is that current, gradient-based optimizations is more economical and delivers superior performance than analogous simulations carried out with gradient-free optimizers. The results also identify small errors in the prepared state fidelity which show an increasing trend with molecular size.
 
 **Significance and Impact:** The long-term success of quantum computing will depend on the efficiency with which the algorithms solve important problems, and this work addresses the question of what makes a good algorithm for electronic structure calculations from quantum chemistry. While the results are limited to the ground-states of diatomic molecules solved using noiseless simulation, they provide ground truth for how well such variational methods may perform. In addition, this work supports the broader goal of establishing a diverse library of quantum algorithms.
+
 
 
 
@@ -267,6 +286,8 @@ https://nwchemgit.github.io/ (NWChem Documentation)
 
 
 
+
+
 ## Dynamical Self-energy Mapping (DSEM) for quantum computing
 
 "Dynamical Self-energy Mapping (DSEM) for quantum computing," Diksha Dhawan, Mekena Metcalf and Dominika Zgid, [*arXiv*:2010.05441](https://arxiv.org/abs/2010.05441).
@@ -276,6 +297,7 @@ https://nwchemgit.github.io/ (NWChem Documentation)
 **Approach and Results:**
 
 **Significance and Impact:**
+
 
 
 
@@ -293,6 +315,7 @@ https://nwchemgit.github.io/ (NWChem Documentation)
 
 
 
+
 ## Variational quantum solver employing the PDS energy functional
 
 "Variational quantum solver employing the PDS energy functional," Bo Peng and Karol Kowalski, [*arXiv*:2101.08526](https://arxiv.org/abs/2101.08526).
@@ -302,6 +325,9 @@ https://nwchemgit.github.io/ (NWChem Documentation)
 **Approach and Results:** Here we find that a new class of objective cost function based on the Peeters-Devreese-Soldatov (PDS) formulation can be employed in a conventional VQE framework. In comparison with the conventional VQE and the static PDS approach, this new variational quantum solver offers an effective approach that helps navigate the optimization dynamics on the upper bound energy landscape of the target state, thus let the dynamics be free from getting trapped in the local minima that refer to different states. We demonstrate the performance of the proposed variational quantum solver for toy models, H2 molecule, and strongly correlated planar H4 system in some challenging situations. In all the case studies, the proposed variational quantum approach outperforms the usual VQE and static PDS calculations even at the lowest order.
 
 **Significance and Impact:** The proposed variational quantum solver employing the PDS functionals helps achieve high accuracy at finding the ground state and its energy through the rotation of the trial wave function of modest quality, thus improves the accuracy and efficiency of the quantum simulation. 
+
+
+
 
 
 ## Dimensionality reduction of many-body problem using coupled-cluster sub-system flow equations: classical and quantum computing perspective
@@ -329,4 +355,5 @@ https://nwchemgit.github.io/ (NWChem Documentation)
 
 **Significance and Impact:**
 
-
+https://nwchemgit.github.io/ (NWChem Documentation)  
+https://xacc.readthedocs.io/en/latest/ (XACC Documentation)
