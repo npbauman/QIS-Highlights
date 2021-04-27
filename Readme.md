@@ -20,7 +20,6 @@ This repository is dedicated to highlighting developments within the Quantum Inf
 - [Simulating quantum materials with digital quantum computers](#Simulating-quantum-materials-with-digital-quantum-computers)
 - [Variational quantum solver employing the PDS energy functional](#Variational-quantum-solver-employing-the-PDS-energy-functional)
 - [Dimensionality reduction of many-body problem using coupled-cluster sub-system flow equations](#dimensionality-reduction-of-many-body-problem-using-coupled-cluster-sub-system-flow-equations)
-- [Effect of state preparation on the quantum connected moments expansion](#Effect-of-state-preparation-on-the-quantum-connected-moments-expansion)
 - [Improving the accuracy and efficiency of quantum connected moments expansions](#improving-the-accuracy-and-efficiency-of-quantum-connected-moments-expansions)
 
 
@@ -365,26 +364,6 @@ https://docs.microsoft.com/en-us/azure/quantum/ (Quantum Development Kit Documen
 
 
 
-
-## Effect of state preparation on the quantum connected moments expansion
-
-"Effect of state preparation on the quantum connected moments expansion," Daniel Claudino, Bo Peng, Nicholas P. Bauman, Karol Kowalski and Travis S. Humble, [*Quantum Sci. Technol.* (submitted)].
-
-**Abstract:** Further advancement of quantum computing (QC) is contingent on enabling many-body models that avoid deep circuits and excessive use of CNOT gates. To this end, we develop a QC approach employing finite-order connected moment expansions (CMX) and affordable procedures for initial state preparation. We demonstrate the performance of our approach employing several quantum variants of CMX through the classical emulations on the H<sub>2</sub> molecule potential energy surface and the Anderson model with a broad range of correlation strength. The results show that our approach is robust and flexible. Good agreement with exact solutions can be maintained even at the dissociation and strong correlation limits.
-
-
-<!---**Challenge:**--->
-
-<!---**Approach and Results:**--->
-
-<!---**Significance and Impact:**--->
-
-https://nwchemgit.github.io/ (NWChem Documentation)  
-https://xacc.readthedocs.io/en/latest/ (XACC Documentation)
-
-
-
-
 ## Improving the accuracy and efficiency of quantum connected moments expansions
 <p align="center">
   <img width="400" src="https://github.com/npbauman/BES-QIS/blob/a347c6fa28dfb40cfc0d7c91cf938a1f03a4d0dd/Figures/CMX-H2.png"> <br>
@@ -395,13 +374,12 @@ https://xacc.readthedocs.io/en/latest/ (XACC Documentation)
 
 **Abstract:** The still-maturing noisy intermediate-scale quantum (NISQ) technology faces strict limitations on the algorithms that can be implemented efficiently. In quantum chemistry, the variational quantum eigensolver (VQE) algorithm has become ubiquitous, using the functional form of the ansatz as a degree of freedom, whose parameters are found variationally in a feedback loop between the quantum processor and its conventional counterpart. Alternatively, a promising new avenue has been unraveled by the quantum variants of techniques grounded on expansions of the moments of the Hamiltonian, among which two stand out: the connected moments expansion (CMX) [Phys. Rev. Lett. 58, 53 (1987)] and the Peeters-Devreese-Soldatov (PDS) functional [J. Phys. A 17, 625 (1984); Int. J. Mod. Phys. B 9, 2899], the latter based on the standard moments **<H<sup>k</sup>>**. Contrasting with VQE-based methods and provided the quantum circuit prepares a state with non-vanishing overlap with the true ground state, CMX often converges to the ground state energy, while PDS is guaranteed to converge by virtue of being variational. However, for a finite CMX/PDS order, the circuit may significantly impact the energy accuracy. Here we use the ADAPT-VQE algorithm to test shallow circuit construction strategies that are not expected to impede their implementation in the present quantum hardware while granting sizable accuracy improvement in the computed ground state energies. We also show that we can take advantage of the fact that the terms in the connected moments are highly recurring in different powers, incurring a sizable reduction in the number of necessary measurements. By coupling this measurement caching with a threshold that determines whether a given term is to be measured based on its associated scalar coefficient, we observe a further reduction in the number of circuit implementations while allowing for tunable accuracy. 
 
+**Challenge:** The accuracy of the ground-state energy based on expansion of the moments of the Hamiltonian for a given expansion order is dependent on the degree of overlap between the prepared state and the true ground state. Increasing this overlap needs to be done in order to strike a balance between accuracy and feasibility of the circuits to be implemented. The accuracy in the energy estimates increases with the expansion order, at the expense of a potential exponential increase in the number of terms to be measured. 
 
-<!---**Challenge:**--->
+**Approach and Results:** We take advantage of the intrinsic iterative circuit construction from the ADAPT-VQE algorithm to prepare a state upon a single ADAPT iteration, i.e., one many-body rotation away from the Hartree-Fock state. We find that this is enough to provide substantial improvement in the energy estimates, as it is shown that out approach is enough to retain a large overlap with the ground state, particularly in the regime where HF is not a good approximation to the ground state. For a given Hamiltonian, there is a limited number of unique terms that are found in the low orders that are recurrent for all moments, so caching the measured terms drastically decreases the number of necessary measurements. This can be further alleviated by setting a numerical threshold in the scalar multiplying the terms to be measured to signal terms whose contribution may be deemed numerically unimportant.
 
-<!---**Approach and Results:**--->
+**Significance and Impact:** Our findings strengthen the case for quantum moments expansions as an efficient and accurate alternative to strategies based on the variational quantum eigensolver.
 
-<!---**Significance and Impact:**--->
-
-https://nwchemgit.github.io/ (NWChem Documentation)  
+https://nwchemgit.github.io/ (NWChem Documentation)
 https://xacc.readthedocs.io/en/latest/ (XACC Documentation)
 
