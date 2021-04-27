@@ -20,7 +20,6 @@ This repository is dedicated to highlighting developments within the Quantum Inf
 - [Simulating quantum materials with digital quantum computers](#Simulating-quantum-materials-with-digital-quantum-computers)
 - [Variational quantum solver employing the PDS energy functional](#Variational-quantum-solver-employing-the-PDS-energy-functional)
 - [Dimensionality reduction of many-body problem using coupled-cluster sub-system flow equations](#dimensionality-reduction-of-many-body-problem-using-coupled-cluster-sub-system-flow-equations)
-- [Effect of state preparation on the quantum connected moments expansion](#Effect-of-state-preparation-on-the-quantum-connected-moments-expansion)
 - [Improving the accuracy and efficiency of quantum connected moments expansions](#improving-the-accuracy-and-efficiency-of-quantum-connected-moments-expansions)
 
 
