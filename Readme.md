@@ -390,7 +390,7 @@ https://xacc.readthedocs.io/en/latest/ (XACC Documentation)
 
 ## Numerical Simulations of Noisy Quantum Circuits for Computational Chemistry
 <p align="center">
-  <img width="400" src="https://github.com/npbauman/QIS-Highlights/blob/master/Figures/noisy-vqe.png"> <br>
+  <img width="400" src="https://github.com/danclaudino/QIS-Highlights/blob/master/Figures/noisy-vqe.png"> <br>
 <sub><sup> Simulation results of the energy (top row) and state fidelity (bottom row) for NaH using variational quantum circuits in the presence of varying noise levels of hardware noise. Left column is the bare circuit while the right column uses randomized compiling.</sup></sub>
 </p>
 
