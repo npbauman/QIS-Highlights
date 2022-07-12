@@ -22,7 +22,7 @@ This repository is dedicated to highlighting developments within the Quantum Inf
 - [Dimensionality reduction of many-body problem using coupled-cluster sub-system flow equations](#dimensionality-reduction-of-many-body-problem-using-coupled-cluster-sub-system-flow-equations)
 - [Improving the accuracy and efficiency of quantum connected moments expansions](#improving-the-accuracy-and-efficiency-of-quantum-connected-moments-expansions)
 - [Numerical Simulations of Noisy Quantum Circuits for Computational Chemistry](#numerical-simulations-of-noisy-quantum-circuits-for-computational-chemistry)
-- [Coupled Cluster Downfolding Theory: towards universal many-body algorithms for dimensionality reduction of composite quantum systems in chemistry and materials science](#coupled-cluster-downfolding-theory-towards-universal-many-body-algorithms-for-dimensionality-reduction-of-composite-quantum-systems-in-chemistry-and-materials-science))
+- [Coupled Cluster Downfolding Theory: towards universal many-body algorithms for dimensionality reduction of composite quantum systems in chemistry and materials science](#coupled-cluster-downfolding-theory-towards-universal-many-body-algorithms-for-dimensionality-reduction-of-composite-quantum-systems-in-chemistry-and-materials-science)
 
 
 
