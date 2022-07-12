@@ -22,6 +22,7 @@ This repository is dedicated to highlighting developments within the Quantum Inf
 - [Dimensionality reduction of many-body problem using coupled-cluster sub-system flow equations](#dimensionality-reduction-of-many-body-problem-using-coupled-cluster-sub-system-flow-equations)
 - [Improving the accuracy and efficiency of quantum connected moments expansions](#improving-the-accuracy-and-efficiency-of-quantum-connected-moments-expansions)
 - [Numerical Simulations of Noisy Quantum Circuits for Computational Chemistry](#numerical-simulations-of-noisy-quantum-circuits-for-computational-chemistry)
+- [Coupled Cluster Downfolding Theory: towards universal many-body algorithms for dimensionality reduction of composite quantum systems in chemistry and materials science](#coupled-cluster-downfolding-theory:-towards-universal-many-body-algorithms-for-dimensionality-reduction-of-composite-quantum-systems-in-chemistry-and-materials-science)
 
 
 
@@ -403,3 +404,13 @@ https://xacc.readthedocs.io/en/latest/ (XACC Documentation)
 **Approach and Results:** We analyze the performance of noisy quantum computers to calculate the electronic energy of small molecules using numerical simulations. Our results quantify the influence of noise on energy accuracy and state fidelity.
 
 **Significance and Impact:** Estimating the intrinsic accuracy of quantum computational methods is important for setting performance expectations of algorithms and performance requirements for hardware.
+
+
+
+
+## Coupled Cluster Downfolding Theory: towards universal many-body algorithms for dimensionality reduction of composite quantum systems in chemistry and materials science
+
+**Abstract:** The recently introduced coupled cluster (CC) downfolding techniques for reducing the dimensionality of quantum many-body problems recast the CC formalism in the form of the renormalization procedure allowing, for the construction of effective (or downfolded) Hamiltonians in small-dimensionality sub-space, usually identified with the so-called active space, of the entire Hilbert space. The resulting downfolded Hamiltonians integrate out the external (out-of-active-space) Fermionic degrees of freedom from the internal (in-the-active-space) parameters of the wave function, which can be determined as components of the eigenvectors of the downfolded Hamiltonians in the active space. This paper will discuss the extension of non-Hermitian (associated with standard CC formulations) and Hermitian (associated with the unitary CC approaches) downfolding formulations to composite quantum systems commonly encountered in materials science and chemistry. The non-Hermitian formulation can provide a platform for developing local CC approaches, while the Hermitian one can serve as an ideal foundation for developing various quantum computing applications based on the limited quantum resources. We also discuss the algorithm for extracting the semi-analytical form of the inter-electron interactions in the active spaces.
+
+**Significance and Impact:** For the H<sub>2</sub>O molecule, we demonstrated that expansion based on the inclusion of single, double, and selected triple commutators reachs the CCSDTQ level of accuracy, when all orbitals are correlated. The newly developed  symbolic equation generator (SymGen) has been integrated with the exa-scale Tensor Algebra for Many-body Methods library (TAMM), which paves the way for downfolding systems composed of 1,000+ orbitals to arbitrary size active space (manuscript in preparation). 
+
