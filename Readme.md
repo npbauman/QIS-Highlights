@@ -23,7 +23,7 @@ This repository is dedicated to highlighting developments within the Quantum Inf
 - [Improving the accuracy and efficiency of quantum connected moments expansions](#improving-the-accuracy-and-efficiency-of-quantum-connected-moments-expansions)
 - [Numerical Simulations of Noisy Quantum Circuits for Computational Chemistry](#numerical-simulations-of-noisy-quantum-circuits-for-computational-chemistry)
 - [Coupled cluster downfolding methods: The effect of double commutator terms on the accuracy of ground-state energies](#coupled-cluster-downfolding-methods-the-effect-of-double-commutator-terms-on-the-accuracy-of-ground-state-energies)
-
+- [Modeling singlet fission on a quantum computer](#modeling-singlet-fission-on-a-quantum-computer)
 
 
 
@@ -417,3 +417,20 @@ https://xacc.readthedocs.io/en/latest/ (XACC Documentation)
 
 **Significance and Impact:** For the H<sub>2</sub>O molecule, we demonstrated that expansion based on the inclusion of single, double, and selected triple commutators reachs the CCSDTQ level of accuracy, when all orbitals are correlated. A newly developed symbolic manipulation equation generator for the double unitary coupled cluster formalism (SyMan-DUCC) has been integrated with the exa-scale Tensor Algebra for Many-body Methods library (TAMM), which paves the way for downfolding systems composed of 1,000+ orbitals to arbitrary size active space. 
 
+
+
+## Modeling singlet fission on a quantum computer
+<p align="center">
+  <img width="400" src="https://github.com/danclaudino/QIS-Highlights/blob/master/Figures/qbit-image.jpg"> <br>
+<sub><sup> Multi-step measurement reduction strategy turning the simulations amenable on the H1-1 quantum hardware.</sup></sub>
+</p>
+
+"Modeling singlet fission on a quantum computer," Daniel Claudino, Bo Peng, Karol Kowalski, and Travis S. Humble, [*arXiv*:2301.05752](https://arxiv.org/abs/2301.05752).
+
+**Abstract:** We present a use case of practical utility of quantum computing by employing a quantum computer in the investigation of the linear H4 molecule as a simple model to comply with the requirements of singlet fission. We leverage a series of independent strategies to bring down the overall cost of the quantum computations, namely 1) tapering off qubits in order to reduce the size of the relevant Hilbert space; 2) measurement optimization via rotations to eigenbases shared by groups of qubit-wise commuting (QWC) Pauli strings; 3) parallel execution of multiple state preparation + measurement operations, implementing quantum circuits onto all 20 qubits available in the Quantinuum H1-1 quantum hardware. We report results that satisfy the energetic prerequisites of singlet fission and which are in excellent agreement with the exact transition energies (for the chosen one-particle basis), and much superior to classical methods deemed computationally tractable for singlet fission candidates
+
+**Challenge:** Description of the excitionic structure of states involved in singlet fission is notoriuosly difficult, which to be satisfactorily addressed by quantum computers would demand a prohibitive amount of resources.
+
+**Approach and Results:** We employ a multi-pronged approach to achieve two orders of magnitude reduction in the number of quantum circuits required to be implemented. We show that the proposed algorithm (PDS) can tackle the complex excitionic structure of the S<sub>1</sub> state in the H<sub>4</sub> molecule.
+
+**Significance and Impact:** Our measurement reduction strategy enables the PDS algorithm, that trades circuit complexity for number of measurements, to still be amanable to actual quantum hardware and to deliver reliable results for use cases where conventional methods deemed tractable fall short of the expected accuracy.
