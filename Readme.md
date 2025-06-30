@@ -24,6 +24,7 @@ This repository is dedicated to highlighting developments within the Quantum Inf
 - [Numerical Simulations of Noisy Quantum Circuits for Computational Chemistry](#numerical-simulations-of-noisy-quantum-circuits-for-computational-chemistry)
 - [Coupled cluster downfolding methods: The effect of double commutator terms on the accuracy of ground-state energies](#coupled-cluster-downfolding-methods-the-effect-of-double-commutator-terms-on-the-accuracy-of-ground-state-energies)
 - [Modeling singlet fission on a quantum computer](#modeling-singlet-fission-on-a-quantum-computer)
+- [Quantum Algorithms for Evaluating Molecular Forces and Gradients](#Quantum-Algorithms-for-Evaluating-Molecular-Forces-and-Gradients)
 - [Quantum Algorithms for the Method od Moments of Coupled Cluster Equations](#Quantum-Algorithms-for-the-Method-of-Moments-of-Coupled-Cluster-Equations)
 - [Quantum Flow Algorithms](#Quantum-Flow-Algorithms)
 - [Generator Coordinate Inspired Method for quantum computers](#Generator-Coordinate-Inspired-Method-for-quantum-computers)
@@ -449,6 +450,12 @@ https://xacc.readthedocs.io/en/latest/ (XACC Documentation)
 
 **Significance and Impact:** The quantum algorithm for renormalized coupled cluster methods allows for constructing the superposition of all-rank moments, which cannnot be efficintly addressed using classical computing. 
 The quantum MMCC algorithms has been highlighetd in the Asademy of Science Report "Advancing Chemistry and Quantum Information Science" (https://nap.nationalacademies.org/catalog/26850/advancing-chemistry-and-quantum-information-science-an-assessment-of-research#:~:text=Suggested%20Citation,.org/10.17226/26850.).
+
+
+## Quantum Algorithms for Evaluating Molecular Forces and Gradients
+"Efficient quantum computation of molecular forces and other energy gradients," Thomas E. O'Brien, Michael Streif, Nicholas C. Rubin, Raffaele Santagati,  Joshua J. Goings, Nikolaj Moll, Elica Kyoseva, Matthias Degroote, Yuan Su, William J. Huggins, Christofer S. Tautermann, Joonho Lee,  Dominic W. Berry, Nathan Wiebe, and Ryan Babbush, [*Phys. Rev. Res.*  (2022)](https://doi.org/10.1103/PhysRevResearch.4.043210)
+
+**Abstract:** While most work on the quantum simulation of chemistry has focused on computing energy surfaces, a similarly important application requiring subtly different algorithms is the computation of energy derivatives. Almost all molecular properties can be expressed an energy derivative, including molecular forces, which are essential for applications such as molecular dynamics simulations. Here, we introduce new quantum algorithms for computing molecular energy derivatives with significantly lower complexity than prior methods. Under cost models appropriate for noisy-intermediate scale quantum devices, we demonstrate how low-rank factorization and other tomography schemes can be optimized for energy derivative calculations. We numerically demonstrate that our techniques reduce the number of circuit repetitions required by many orders of magnitude for even modest systems, and that the cost of estimating an entire force vector may in some systems be lower than the cost of estimating the energy. In the context of fault-tolerant algorithms, we develop new methods of estimating energy derivatives with Heisenberg limited scaling, incorporating state-of-the-art techniques for block encoding fermionic operators. In contrast to our near-term results, we find that the cost of estimating forces with any of our Heisenberg-limited methods is bounded by the cost of estimating energies, due to inner loops requiring either energy estimation or reflections around the ground state. This implies that applications such as geometry optimization, coupling parameter estimation, and spectral prediction may be practical on fault-tolerant quantum devices, but tractable molecular dynamics simulations of large-scale systems requires further algorithmic advances.
 
 
 ## Quantum Flow Algorithms 
