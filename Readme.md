@@ -27,6 +27,7 @@ This repository is dedicated to highlighting developments within the Quantum Inf
 - [Quantum Algorithms for Evaluating Molecular Forces and Gradients](#Quantum-Algorithms-for-Evaluating-Molecular-Forces-and-Gradients)
 - [Quantum Algorithms for the Method od Moments of Coupled Cluster Equations](#Quantum-Algorithms-for-the-Method-of-Moments-of-Coupled-Cluster-Equations)
 - [Quantum Flow Algorithms](#Quantum-Flow-Algorithms)
+- [Quantum Algorithms for Simulating Spectral Functions](#Quantum-Algorithms-for-Simulating-Spectral-Functions)
 - [Generator Coordinate Inspired Method for quantum computers](#Generator-Coordinate-Inspired-Method-for-quantum-computers)
 - [Time dependent Hamiltonian Simulations](#Time-dependent-Hamiltonian-Simulations)
 - [Quantum simulations of boson-related Hamiltonians](#Quantum-simulations-of-boson-related-Hamiltonians)
@@ -468,6 +469,15 @@ The quantum MMCC algorithms has been highlighetd in the Asademy of Science Repor
 
 **Significance and Impact:** The QFlow algorithm provide a framework for distributed quantum sinulations using constant-depth circuits.
 
+
+## Quantum Algorithms for Simulating Spectral Functions
+"Capturing many-body correlation effects with quantum and classical computing," Karol Kowalski, Nicholas P. Bauman, Guang Hao Low, Martin Roetteler, John J. Rehr, and Fernando D. Vila, [*Phys. Rev. A* (2024)](https://doi.org/10.1103/PhysRevA.110.L060401)
+
+**Abstract:** Theoretical descriptions of excited states of molecular systems in high-energy regimes are crucial for supporting and driving many experimental efforts at light source facilities. However, capturing their complicated correlation effects requires formalisms that provide a hierarchical infrastructure of approximations. These approximations lead to an increased overhead in classical computing methods and, therefore, decisions regarding the ranking of approximations and the quality of results must be made on purely numerical grounds. The emergence of quantum computing methods has the potential to change this situation. In this study, we demonstrate the efficiency of the quantum phase estimator (QPE) in identifying core-level states relevant to x-ray photoelectron spectroscopy. We compare and validate the QPE predictions with exact diagonalization and real-time equation-of-motion coupled-cluster formulations, which are some of the most accurate methods for states dominated by collective correlation effects.)
+
+**Approach and Results:** The Quantum Phase Estimator (QPE) has been generalized to evaluate spectral functions of correlated systems. Quantum simulations were perfromed for the XPS spectra of water molecule. 
+
+**Significance and Impact:** Our findings demonstrate that the approximate QPE-derived spectral function can reproduce all features of the exact spectral function in the analyzed XPS binding energies energy window, including both main and satellite peaks. The proposed formalism provides a platform for parallel simulations of photoelectron spectra in various energy regimes. 
 
 
 ## Generator Coordinate Inspired Method for quantum computers
