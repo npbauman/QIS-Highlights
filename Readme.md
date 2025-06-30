@@ -438,7 +438,7 @@ https://xacc.readthedocs.io/en/latest/ (XACC Documentation)
 
 
 ## Quantum Flow Algorithms 
-"Unleashed from Constrained Optimization: Quantum Computing for Quantum Chemistry Employing Generator Coordinate Inspired  Method," Karol Kowalski,Nicholas P. Bauman,  [*Phys Rev. Lett.* (2023)](https://doi.org/10.1038/s41534-024-00916-8).
+"Unleashed from Constrained Optimization: Quantum Computing for Quantum Chemistry Employing Generator Coordinate Inspired  Method," Karol Kowalski,Nicholas P. Bauman,  [*Phys Rev. Lett.* (2023)](https://doi.org/10.1103/PhysRevLett.131.200601).
 
 **Abstract:** We conducted quantum simulations of strongly correlated systems using the quantum flow (QFlow) approach, which enables sampling large subspaces of the Hilbert space through coupled variational problems in reduced dimensionality active spaces. Our QFlow algorithms significantly reduce circuit complexity and pave the way for scalable and constant-circuit-depth quantum computing. Our simulations show that QFlow can optimize the collective number of wave function parameters without increasing the required qubits using active spaces having an order of magnitude fewer number of parameters.
 
