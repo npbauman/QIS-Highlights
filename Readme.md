@@ -477,7 +477,7 @@ The quantum MMCC algorithms has been highlighetd in the Asademy of Science Repor
 
 **Approach and Results:** The Quantum Phase Estimator (QPE) has been generalized to evaluate spectral functions of correlated systems. Quantum simulations were perfromed for the XPS spectra of water molecule. 
 
-**Significance and Impact:** Our findings demonstrate that the approximate QPE-derived spectral function can reproduce all features of the exact spectral function in the analyzed XPS binding energies energy window, including both main and satellite peaks. The proposed formalism provides a platform for parallel simulations of photoelectron spectra in various energy regimes. 
+**Significance and Impact:** Our findings demonstrate that the approximate QPE-derived spectral function can reproduce all features of the exact spectral function in the analyzed XPS binding energies energy window, including both main and satellite peaks. The proposed formalism provides a platform for parallel/distributed quantum simulations of photoelectron spectra in various energy regimes. 
 
 
 ## Generator Coordinate Inspired Method for quantum computers
