@@ -26,7 +26,8 @@ This repository is dedicated to highlighting developments within the Quantum Inf
 - [Modeling singlet fission on a quantum computer](#modeling-singlet-fission-on-a-quantum-computer)
 - [Quantum Algorithms for the Method od Moments of Coupled Cluster Equations](#Quantum-Algorithms-for-the-Method-of-Moments-of-Coupled-Cluster-Equations)
 - [Quantum Flow Algorithms](#Quantum-Flow-Algorithms)
-- [Generator Coordinate Inspired Method for quantum computers](#Generator-Coordinate-Inspired-Method-for-quantum-computers) 
+- [Generator Coordinate Inspired Method for quantum computers](#Generator-Coordinate-Inspired-Method-for-quantum-computers)
+- [Time dependent Hamiltonian Simulations](#Time-dependent-Hamiltonian-Simulations)
 
 
 ## Development of the NWChem-QDK interface
@@ -470,4 +471,11 @@ The quantum MMCC algorithms has been highlighetd in the Asademy of Science Repor
 **Approach and Results:** We employed the ADAPT version of the GCIM algorithm for simulated ground and excited states of the H <sub> 4 </sub>, H <sub> 6 </sub>, BeH <sub> 2 </sub>, and LiH molecules.
 
 **Significance and Impact:** Our experiments indicate that the GCIM can efficiently describe complicated ground and excited states using simple quantum circuits. The GCIM algorithms can be combined with the QFlow approach using the so-called Quantum Translators.
+
+## Time dependent Hamiltonian simulations
+"Time-Dependent Hamiltonian Simulation Using Discrete-Clock Constructions," Jacob Watkins, Nathan Wiebe, Alessandro Roggero, and Dean Lee, [*Phys. Rev. X* (2025)](https://doi.org/10.1103/PRXQuantum.5.040316)
+
+**Abstract:** Compared with time-independent Hamiltonians, the dynamics of generic quantum Hamiltonians 𝐻⁡(𝑡) are complicated by the presence of time ordering in the evolution operator. In the context of digital quantum simulation, this difficulty prevents a direct adaptation of many time-independent simulation algorithms for time-dependent simulation. However, there exists a framework within the theory of dynamical systems that eliminates time ordering by adding a “clock” degree of freedom. In this work, we provide a computational framework, based on this reduction, for encoding time-dependent dynamics as time-independent systems. As a result, we make two advances in digital Hamiltonian simulation. First, we create a time-dependent simulation algorithm based on performing qubitization on the augmented clock system and, in doing so, provide the first qubitization-based approach to time-dependent Hamiltonians that goes beyond Trotterization of the ordered exponential. Second, we define a natural generalization of multiproduct formulas for time-ordered exponentials and then propose and analyze an algorithm based on these formulas. Unlike other algorithms of similar accuracy, the multiproduct approach achieves commutator scaling, meaning that this method outperforms existing methods for physically local time-dependent Hamiltonians with sufficient smoothness. Our work reduces the disparity between time-dependent and time-independent simulation and indicates a step toward optimal quantum simulation of time-dependent Hamiltonians.
+
+
 
