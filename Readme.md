@@ -437,9 +437,6 @@ https://xacc.readthedocs.io/en/latest/ (XACC Documentation)
 
 
 ## Generator Coordinate Inspired Method for quantum computers
-<p align="center">
-  <img width="400" src="https://github.com/npbauman/BES-QIS/Figures/gcim.png"> <br>
-<sub><sup> Schematic representation of the Generator Coordinate Inspired Method (GCIM).</sup></sub>
 
 "Unleashed from Constrained Optimization: Quantum Computing for Quantum Chemistry Employing Generator Coordinate Inspired  Method," Muqing Zheng, Bo Peng, Ang Li, Xiu Yang, Karol Kowalski, [*npj Quantum Information* (2024)](https://doi.org/10.1038/s41534-024-00916-8).
 
