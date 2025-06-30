@@ -24,7 +24,7 @@ This repository is dedicated to highlighting developments within the Quantum Inf
 - [Numerical Simulations of Noisy Quantum Circuits for Computational Chemistry](#numerical-simulations-of-noisy-quantum-circuits-for-computational-chemistry)
 - [Coupled cluster downfolding methods: The effect of double commutator terms on the accuracy of ground-state energies](#coupled-cluster-downfolding-methods-the-effect-of-double-commutator-terms-on-the-accuracy-of-ground-state-energies)
 - [Modeling singlet fission on a quantum computer](#modeling-singlet-fission-on-a-quantum-computer)
-- [Generator Coordinate Inspired Method for quantum computers] (#Generator-Coordinate-Inspired-Method-for-quantum-computers) 
+- [Generator Coordinate Inspired Method for quantum computers](#Generator-Coordinate-Inspired-Method-for-quantum-computers) 
 
 
 ## Development of the NWChem-QDK interface
