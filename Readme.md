@@ -24,7 +24,7 @@ This repository is dedicated to highlighting developments within the Quantum Inf
 - [Numerical Simulations of Noisy Quantum Circuits for Computational Chemistry](#numerical-simulations-of-noisy-quantum-circuits-for-computational-chemistry)
 - [Coupled cluster downfolding methods: The effect of double commutator terms on the accuracy of ground-state energies](#coupled-cluster-downfolding-methods-the-effect-of-double-commutator-terms-on-the-accuracy-of-ground-state-energies)
 - [Modeling singlet fission on a quantum computer](#modeling-singlet-fission-on-a-quantum-computer)
-
+- [Generator Coordinate Inspired Method for quantum computers] (#Generator-Coordinate-Inspired-Method-for-quantum-computers) 
 
 
 ## Development of the NWChem-QDK interface
@@ -434,3 +434,21 @@ https://xacc.readthedocs.io/en/latest/ (XACC Documentation)
 **Approach and Results:** We employ a multi-pronged approach to achieve two orders of magnitude reduction in the number of quantum circuits required to be implemented. We show that the proposed algorithm (PDS) can tackle the complex excitionic structure of the S<sub>1</sub> state in the H<sub>4</sub> molecule.
 
 **Significance and Impact:** Our measurement reduction strategy enables the PDS algorithm, that trades circuit complexity for number of measurements, to still be amanable to actual quantum hardware and to deliver reliable results for use cases where conventional methods deemed tractable fall short of the expected accuracy.
+
+
+## Generator Coordinate Inspired Method for quantum computers
+<p align="center">
+  <img width="400" src="https://github.com/npbauman/BES-QIS/Figures/gcim.png"> <br>
+<sub><sup> Schematic representation of the Generator Coordinate Inspired Method (GCIM).</sup></sub>
+</p>
+  <img width="400" src="https://github.com/danclaudino/QIS-Highlights/blob/master/Figures/gcim.png"> <br>
+<sub><sup> The GCIM algorithm allows for simulating ground and excited states using the same set of shallow-depth quantum circuits.</sup></sub>
+</p>
+
+"Unleashed from Constrained Optimization: Quantum Computing for Quantum Chemistry Employing Generator Coordinate Inspired  Method," Muqing Zheng, Bo Peng, Ang Li, Xiu Yang, Karol Kowalski, [*npj Quantum Information* (2024)](https://doi.org/10.1038/s41534-024-00916-8).
+
+**Abstract:** Hybrid quantum-classical approaches offer potential solutions to quantum chemistry problems, yet they often manifest as constrained optimization problems. Here, we explore the interconnection between constrained optimization and generalized eigenvalue problems through the Unitary Coupled Cluster (UCC) excitation generators. Inspired by the generator coordinate method, we employ these UCC excitation generators to construct non-orthogonal, overcomplete many-body bases, projecting the system Hamiltonian into an effective Hamiltonian, which bypasses issues such as barren plateaus that heuristic numerical minimizers often encountered in standard variational quantum eigensolver (VQE). Diverging from conventional quantum subspace expansion methods, we introduce an adaptive scheme that robustly constructs the many-body basis sets from a pool of the UCC excitation generators. This scheme supports the development of a hierarchical ADAPT quantum-classical strategy, enabling a balanced interplay between subspace expansion and ansatz optimization to address complex, strongly correlated quantum chemical systems cost-effectively, setting the stage for more advanced quantum simulations in chemistry.
+
+**Approach and Results:** We employed the ADAPT version of the GCIM algorithm for simulated ground and excited states of the H <sub> 4 </sub>, H <sub> 6 </sub>, BeH <sub> 2 </sub>, and LiH molecules.
+
+**Significance and Impact:** Our experiments indicate that the GCIM can efficiently describe complicated ground and excited states using simple quantum circuits.
