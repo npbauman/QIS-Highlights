@@ -24,6 +24,7 @@ This repository is dedicated to highlighting developments within the Quantum Inf
 - [Numerical Simulations of Noisy Quantum Circuits for Computational Chemistry](#numerical-simulations-of-noisy-quantum-circuits-for-computational-chemistry)
 - [Coupled cluster downfolding methods: The effect of double commutator terms on the accuracy of ground-state energies](#coupled-cluster-downfolding-methods-the-effect-of-double-commutator-terms-on-the-accuracy-of-ground-state-energies)
 - [Modeling singlet fission on a quantum computer](#modeling-singlet-fission-on-a-quantum-computer)
+- [Quantum Flow Algorithms](#Quantum-Flow-Algorithms)
 - [Generator Coordinate Inspired Method for quantum computers](#Generator-Coordinate-Inspired-Method-for-quantum-computers) 
 
 
@@ -436,6 +437,17 @@ https://xacc.readthedocs.io/en/latest/ (XACC Documentation)
 **Significance and Impact:** Our measurement reduction strategy enables the PDS algorithm, that trades circuit complexity for number of measurements, to still be amanable to actual quantum hardware and to deliver reliable results for use cases where conventional methods deemed tractable fall short of the expected accuracy.
 
 
+## Quantum Flow Algorithms 
+"Unleashed from Constrained Optimization: Quantum Computing for Quantum Chemistry Employing Generator Coordinate Inspired  Method," Karol Kowalski,Nicholas P. Bauman,  [*Phys Rev. Lett.* (2023)](https://doi.org/10.1038/s41534-024-00916-8).
+
+**Abstract:** We conducted quantum simulations of strongly correlated systems using the quantum flow (QFlow) approach, which enables sampling large subspaces of the Hilbert space through coupled variational problems in reduced dimensionality active spaces. Our QFlow algorithms significantly reduce circuit complexity and pave the way for scalable and constant-circuit-depth quantum computing. Our simulations show that QFlow can optimize the collective number of wave function parameters without increasing the required qubits using active spaces having an order of magnitude fewer number of parameters.
+
+**Approach and Results:** We employed the QFlow implementation to simuilate ground-state energies of the H <sub> 6 </sub>, H <sub> 8 </sub> systems.
+
+**Significance and Impact:** The QFlow algorithm provide a framework for distributed quantum sinulations using constant-depth circuits.
+
+
+
 ## Generator Coordinate Inspired Method for quantum computers
 
 "Unleashed from Constrained Optimization: Quantum Computing for Quantum Chemistry Employing Generator Coordinate Inspired  Method," Muqing Zheng, Bo Peng, Ang Li, Xiu Yang, Karol Kowalski, [*npj Quantum Information* (2024)](https://doi.org/10.1038/s41534-024-00916-8).
@@ -444,4 +456,5 @@ https://xacc.readthedocs.io/en/latest/ (XACC Documentation)
 
 **Approach and Results:** We employed the ADAPT version of the GCIM algorithm for simulated ground and excited states of the H <sub> 4 </sub>, H <sub> 6 </sub>, BeH <sub> 2 </sub>, and LiH molecules.
 
-**Significance and Impact:** Our experiments indicate that the GCIM can efficiently describe complicated ground and excited states using simple quantum circuits.
+**Significance and Impact:** Our experiments indicate that the GCIM can efficiently describe complicated ground and excited states using simple quantum circuits. The GCIM algorithms can be combined with the QFlow approach using the so-called Quantum Translators.
+
