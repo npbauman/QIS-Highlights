@@ -24,6 +24,7 @@ This repository is dedicated to highlighting developments within the Quantum Inf
 - [Numerical Simulations of Noisy Quantum Circuits for Computational Chemistry](#numerical-simulations-of-noisy-quantum-circuits-for-computational-chemistry)
 - [Coupled cluster downfolding methods: The effect of double commutator terms on the accuracy of ground-state energies](#coupled-cluster-downfolding-methods-the-effect-of-double-commutator-terms-on-the-accuracy-of-ground-state-energies)
 - [Modeling singlet fission on a quantum computer](#modeling-singlet-fission-on-a-quantum-computer)
+- [Quantum Algorithms for the Method od Moments of Coupled Cluster Equations](#Quantum-Algorithms-for-the-Method-of-Moments-of-Coupled-Cluster-Equations)
 - [Quantum Flow Algorithms](#Quantum-Flow-Algorithms)
 - [Generator Coordinate Inspired Method for quantum computers](#Generator-Coordinate-Inspired-Method-for-quantum-computers) 
 
@@ -437,8 +438,20 @@ https://xacc.readthedocs.io/en/latest/ (XACC Documentation)
 **Significance and Impact:** Our measurement reduction strategy enables the PDS algorithm, that trades circuit complexity for number of measurements, to still be amanable to actual quantum hardware and to deliver reliable results for use cases where conventional methods deemed tractable fall short of the expected accuracy.
 
 
+
+## Quantum Algorithms for the Method of Moments of Coupled Cluster Equations
+"Mapping renormalized coupled cluster methods to quantum computers through a compact unitary representation of nonunitary operators," Bo Peng, Karol Kowalski, [*Phys. Rev. Rep.* (2022)](https://doi.org/10.1103/PhysRevResearch.4.043172)
+
+**Abstract:** Nonunitary theories are commonly seen in the classical simulations of quantum systems. Among these theories, the method of moments of coupled cluster equations (MMCCs) and the ensuing classes of the renormalized coupled cluster (CC) approaches have evolved into one of the most accurate approaches to describe correlation effects in various quantum systems. The MMCC formalism provides an effective way for correcting the energies of approximate CC formulations (parent theories) using moments, or CC equations, that are not used to determine approximate cluster amplitudes. In this paper, we propose a quantum algorithm for computing MMCC ground-state energies that provides two main advantages over classical computing or other quantum algorithms: (i) the possibility of forming superpositions of CC moments of arbitrary ranks in the entire Hilbert space and using an arbitrary form of the parent cluster operator for MMCC expansion, and (ii) significant reduction in the number of measurements in quantum simulation through a compact unitary representation for a generally nonunitary operator. We illustrate the robustness of our approach over a broad class of test cases, including ∼40 molecular systems with varying basis sets encoded using 4–40 qubits, and we exhibit the detailed MMCC analysis for the 8-qubit half-filled, four-site, single impurity Anderson model and the 12-qubit hydrogen fluoride molecular system from the corresponding noise-free and noisy MMCC quantum computations. We also outline the extension of the MMCC formalism to the case of a unitary CC wave-function Ansatz.
+
+**Approach and Results:**  We developed quantum algorithms for  Method of Moments of Coupled Cluster Equations and Renormalized Coupled CLuster Methods.
+
+**Significance and Impact:** The quantum algorithm for renormalized coupled cluster methods allows for constructing the superposition of all-rank moments, which cannnot be efficintly addressed using classical computing. 
+The quantum MMCC algorithms has been highlighetd in the Asademy of Science Report "Advancing Chemistry and Quantum Information Science" (https://nap.nationalacademies.org/catalog/26850/advancing-chemistry-and-quantum-information-science-an-assessment-of-research#:~:text=Suggested%20Citation,.org/10.17226/26850.).
+
+
 ## Quantum Flow Algorithms 
-"Unleashed from Constrained Optimization: Quantum Computing for Quantum Chemistry Employing Generator Coordinate Inspired  Method," Karol Kowalski,Nicholas P. Bauman,  [*Phys Rev. Lett.* (2023)](https://doi.org/10.1103/PhysRevLett.131.200601).
+"Unleashed from Constrained Optimization: Quantum Computing for Quantum Chemistry Employing Generator Coordinate Inspired  Method," Karol Kowalski,Nicholas P. Bauman,  [*Phys. Rev. Lett.* (2023)](https://doi.org/10.1103/PhysRevLett.131.200601).
 
 **Abstract:** We conducted quantum simulations of strongly correlated systems using the quantum flow (QFlow) approach, which enables sampling large subspaces of the Hilbert space through coupled variational problems in reduced dimensionality active spaces. Our QFlow algorithms significantly reduce circuit complexity and pave the way for scalable and constant-circuit-depth quantum computing. Our simulations show that QFlow can optimize the collective number of wave function parameters without increasing the required qubits using active spaces having an order of magnitude fewer number of parameters.
 
